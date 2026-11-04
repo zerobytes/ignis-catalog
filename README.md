@@ -78,6 +78,15 @@ Previews load only when activated; their transfer size is displayed. Large
 payloads are pinned to this release and verified before use. The catalog can add
 other static mesh families using the same records and package format.
 
+### Areca palm 1.1.0
+
+The [updated areca palm](https://github.com/zerobytes/ignis-catalog/releases/tag/palmeirinha-v1.1.0)
+has continuous petiole-to-rachis curves with increasing tip curvature and authored
+young/developed leaf sizes. The editable source includes growth-stage and height
+variation controls (default 0.8). Native editing requires botanical recipe/source
+format 9; browser preview and full-resolution GLB remain static presentations.
+The original 1.0.0 package remains pinned in the initial tree release.
+
 ## Hosting and contribution
 
 Recipes and metadata stay in Git. Large meshes, texture exports and other packages

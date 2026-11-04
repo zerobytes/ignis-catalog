@@ -32,6 +32,15 @@ não são simulações botânicas calibradas. Não incluímos fotos de referênc
 conteúdo de jogo em desenvolvimento. Novos tipos de objetos podem usar a mesma
 estrutura de meshes e pacotes versionados.
 
+### Palmeirinha 1.1.0
+
+A [palmeirinha revisada](https://github.com/zerobytes/ignis-catalog/releases/tag/palmeirinha-v1.1.0)
+tem curvas contínuas da base até a ponta, com curvatura progressiva, e folhas
+jovens/desenvolvidas de tamanhos diferentes. A fonte inclui controles de estágio
+e variação de crescimento (padrão 0,8). A edição nativa exige fonte/receita
+botânica 9; a prévia web e o GLB completo são apresentações estáticas.
+O pacote original 1.0.0 continua disponível na primeira versão de árvores.
+
 ## Como manter gratuito
 
 - Receitas pequenas, registros e miniaturas leves no repositório público.
