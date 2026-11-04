@@ -1,0 +1,41 @@
+{
+  "format_version": 1,
+  "id": "ignis.material.basic.ceramic",
+  "version": "1.0.0",
+  "name": "Ceramic",
+  "kind": "material",
+  "summary": "Editable procedural basic material: Ceramic.",
+  "tags": [
+    "procedural",
+    "basic",
+    "material"
+  ],
+  "license": "CC-BY-4.0",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "attribution": "Ceramic — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+  "compatibility": {
+    "engine": "ignis",
+    "minimum_scene_version": 112,
+    "material_library_version": 1,
+    "runtime_validation": "not_run_in_catalog"
+  },
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis",
+    "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+    "path": "assets/materials/ceramic.ignis-material",
+    "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+    "availability": "local-unpublished"
+  },
+  "files": [
+    {
+      "path": "assets/materials/basic/ceramic/ceramic.ignis-material",
+      "role": "source",
+      "media_type": "application/json",
+      "bytes": 2320,
+      "sha256": "fd7d725876bcff1d52a128bc73be62fd1566fa7130056f48fcb8d8982689ac4e"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+Ignis Catalog licensing
+=======================
+
+Original asset sources, asset metadata and documentation in this repository
+are Copyright (c) 2026 Guilherme Oliveira / Zerobytes and contributors,
+licensed under Creative Commons Attribution 4.0 International (CC BY 4.0),
+unless an individual asset manifest explicitly identifies another license.
+Full terms: LICENSES/CC-BY-4.0.txt
+https://creativecommons.org/licenses/by/4.0/
+
+Scripts in tools/, tests/, and workflow configuration are licensed under MIT.
+Full terms: LICENSES/MIT.txt
+
+The Ignis engine itself has a separate license. Downloading an asset does not
+relicense the engine. Third-party contributions retain their own copyright.

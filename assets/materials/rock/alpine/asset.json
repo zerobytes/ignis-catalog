@@ -1,0 +1,41 @@
+{
+  "format_version": 1,
+  "id": "ignis.material.rock.alpine",
+  "version": "1.0.0",
+  "name": "Alpine",
+  "kind": "material",
+  "summary": "Editable procedural rock material: Alpine.",
+  "tags": [
+    "procedural",
+    "rock",
+    "material"
+  ],
+  "license": "CC-BY-4.0",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "attribution": "Alpine — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+  "compatibility": {
+    "engine": "ignis",
+    "minimum_scene_version": 119,
+    "material_library_version": 2,
+    "runtime_validation": "not_run_in_catalog"
+  },
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis",
+    "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+    "path": "assets/materials/rock/alpine.ignis-material",
+    "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+    "availability": "local-unpublished"
+  },
+  "files": [
+    {
+      "path": "assets/materials/rock/alpine/alpine.ignis-material",
+      "role": "source",
+      "media_type": "application/json",
+      "bytes": 1986,
+      "sha256": "0626c46d59e66bd006c5e71ef8141919d23826c8b08f799ed90f521d2be94ec2"
+    }
+  ]
+}

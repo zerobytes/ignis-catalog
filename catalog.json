@@ -1,0 +1,846 @@
+{
+  "format_version": 1,
+  "name": "Ignis Catalog",
+  "assets": [
+    {
+      "format_version": 1,
+      "id": "ignis.material.basic.ceramic",
+      "version": "1.0.0",
+      "name": "Ceramic",
+      "kind": "material",
+      "summary": "Editable procedural basic material: Ceramic.",
+      "tags": [
+        "procedural",
+        "basic",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Ceramic — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 112,
+        "material_library_version": 1,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/ceramic.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/basic/ceramic/ceramic.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 2320,
+          "sha256": "fd7d725876bcff1d52a128bc73be62fd1566fa7130056f48fcb8d8982689ac4e"
+        }
+      ],
+      "manifest": "assets/materials/basic/ceramic/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.basic.painted-metal",
+      "version": "1.0.0",
+      "name": "Painted Metal",
+      "kind": "material",
+      "summary": "Editable procedural basic material: Painted Metal.",
+      "tags": [
+        "procedural",
+        "basic",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Painted Metal — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 112,
+        "material_library_version": 1,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/painted-metal.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/basic/painted-metal/painted-metal.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 2317,
+          "sha256": "53617a3ecba56e08131137e62b29ddc0150e35d8a0613fa691ad4c78f7864135"
+        }
+      ],
+      "manifest": "assets/materials/basic/painted-metal/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.basic.stone",
+      "version": "1.0.0",
+      "name": "Stone",
+      "kind": "material",
+      "summary": "Editable procedural basic material: Stone.",
+      "tags": [
+        "procedural",
+        "basic",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Stone — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 112,
+        "material_library_version": 1,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/stone.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/basic/stone/stone.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 2319,
+          "sha256": "8be0143e2641cab87934c67453bfe5794306229ff861475984d2c9e594cbffe9"
+        }
+      ],
+      "manifest": "assets/materials/basic/stone/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.basic.wood",
+      "version": "1.0.0",
+      "name": "Wood",
+      "kind": "material",
+      "summary": "Editable procedural basic material: Wood.",
+      "tags": [
+        "procedural",
+        "basic",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Wood — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 112,
+        "material_library_version": 1,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/wood.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/basic/wood/wood.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 2316,
+          "sha256": "d7bfbc9bdf6bc2b1ebb7523db2142abc548af15c0bfa7d277f0639b0b703c26a"
+        }
+      ],
+      "manifest": "assets/materials/basic/wood/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.marble.azul",
+      "version": "1.0.0",
+      "name": "Azul",
+      "kind": "material",
+      "summary": "Editable procedural marble material: Azul.",
+      "tags": [
+        "procedural",
+        "marble",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Azul — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 115,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/marble/azul.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/marble/azul/azul.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1786,
+          "sha256": "2bf8ed044acb7765b7ad55ab6194c422ebde6608ad45daa0f5e0f9cc836a8127"
+        }
+      ],
+      "manifest": "assets/materials/marble/azul/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.marble.calacatta",
+      "version": "1.0.0",
+      "name": "Calacatta",
+      "kind": "material",
+      "summary": "Editable procedural marble material: Calacatta.",
+      "tags": [
+        "procedural",
+        "marble",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Calacatta — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 115,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/marble/calacatta.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/marble/calacatta/calacatta.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1774,
+          "sha256": "9d21b7eb54e2a05b5f0cc63a7a758efe26d674276bf3222133260c00b302591c"
+        }
+      ],
+      "manifest": "assets/materials/marble/calacatta/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.marble.carrara",
+      "version": "1.0.0",
+      "name": "Carrara",
+      "kind": "material",
+      "summary": "Editable procedural marble material: Carrara.",
+      "tags": [
+        "procedural",
+        "marble",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Carrara — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 115,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/marble/carrara.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/marble/carrara/carrara.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1782,
+          "sha256": "5b108902e3ac29be511478d790c65552ff4a5aca41f0cace679dc48ef9b74184"
+        }
+      ],
+      "manifest": "assets/materials/marble/carrara/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.marble.emerald-gold",
+      "version": "1.0.0",
+      "name": "Emerald Gold",
+      "kind": "material",
+      "summary": "Editable procedural marble material: Emerald Gold.",
+      "tags": [
+        "procedural",
+        "marble",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Emerald Gold — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 115,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/marble/emerald_gold.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/marble/emerald-gold/emerald_gold.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1777,
+          "sha256": "5fb1345147d663be33e3ba7993c488d34b5399048f78890b9bd33247ac475d31"
+        }
+      ],
+      "manifest": "assets/materials/marble/emerald-gold/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.marble.emerald-white-gold",
+      "version": "1.0.0",
+      "name": "Emerald White Gold",
+      "kind": "material",
+      "summary": "Editable procedural marble material: Emerald White Gold.",
+      "tags": [
+        "procedural",
+        "marble",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Emerald White Gold — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 115,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/marble/emerald_white_gold.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/marble/emerald-white-gold/emerald_white_gold.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1771,
+          "sha256": "110a53b4f2b7f6125d8e2f6e3344ff8d8b975423252f305bef6a75279309f355"
+        }
+      ],
+      "manifest": "assets/materials/marble/emerald-white-gold/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.marble.emperador",
+      "version": "1.0.0",
+      "name": "Emperador",
+      "kind": "material",
+      "summary": "Editable procedural marble material: Emperador.",
+      "tags": [
+        "procedural",
+        "marble",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Emperador — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 115,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/marble/emperador.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/marble/emperador/emperador.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1787,
+          "sha256": "65b49a6ec09ddb5170f61aa3d8f687cb6d91ae85c8469f5c17969f5d4d525a92"
+        }
+      ],
+      "manifest": "assets/materials/marble/emperador/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.marble.nero-marquina",
+      "version": "1.0.0",
+      "name": "Nero Marquina",
+      "kind": "material",
+      "summary": "Editable procedural marble material: Nero Marquina.",
+      "tags": [
+        "procedural",
+        "marble",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Nero Marquina — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 115,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/marble/nero_marquina.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/marble/nero-marquina/nero_marquina.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1787,
+          "sha256": "a0bf58e163a6979db70f812dac32266b5817bb6b8db6acdaf74184ba1b6e4e8f"
+        }
+      ],
+      "manifest": "assets/materials/marble/nero-marquina/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.marble.portoro",
+      "version": "1.0.0",
+      "name": "Portoro",
+      "kind": "material",
+      "summary": "Editable procedural marble material: Portoro.",
+      "tags": [
+        "procedural",
+        "marble",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Portoro — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 115,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/marble/portoro.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/marble/portoro/portoro.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1789,
+          "sha256": "d1269b00af065409f40e375a8286c1096d3a5139b8c903b3411291b723d6ebc0"
+        }
+      ],
+      "manifest": "assets/materials/marble/portoro/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.marble.rosa",
+      "version": "1.0.0",
+      "name": "Rosa",
+      "kind": "material",
+      "summary": "Editable procedural marble material: Rosa.",
+      "tags": [
+        "procedural",
+        "marble",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Rosa — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 115,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/marble/rosa.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/marble/rosa/rosa.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1779,
+          "sha256": "b58cad9f3f78b1c2ae1bfef2590549c0cc6217f821b003ec963beeab5be77f89"
+        }
+      ],
+      "manifest": "assets/materials/marble/rosa/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.marble.rosso-levanto",
+      "version": "1.0.0",
+      "name": "Rosso Levanto",
+      "kind": "material",
+      "summary": "Editable procedural marble material: Rosso Levanto.",
+      "tags": [
+        "procedural",
+        "marble",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Rosso Levanto — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 115,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/marble/rosso_levanto.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/marble/rosso-levanto/rosso_levanto.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1788,
+          "sha256": "893ab6c02681b2ed90a277e6fc3404fc66b37534952b3b969678e7da6435da31"
+        }
+      ],
+      "manifest": "assets/materials/marble/rosso-levanto/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.marble.statuario",
+      "version": "1.0.0",
+      "name": "Statuario",
+      "kind": "material",
+      "summary": "Editable procedural marble material: Statuario.",
+      "tags": [
+        "procedural",
+        "marble",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Statuario — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 115,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/marble/statuario.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/marble/statuario/statuario.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1781,
+          "sha256": "5d62270e0932522edf613eaa5573c02edfb7937bd52248e3234f6299fe246c0c"
+        }
+      ],
+      "manifest": "assets/materials/marble/statuario/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.marble.verde-breccia",
+      "version": "1.0.0",
+      "name": "Verde Breccia",
+      "kind": "material",
+      "summary": "Editable procedural marble material: Verde Breccia.",
+      "tags": [
+        "procedural",
+        "marble",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Verde Breccia — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 115,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/marble/verde_breccia.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/marble/verde-breccia/verde_breccia.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1790,
+          "sha256": "3d6276b2397298eb9de73316731c1b4d510542e1de6e26fbdc548671df6de932"
+        }
+      ],
+      "manifest": "assets/materials/marble/verde-breccia/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.rock.alpine",
+      "version": "1.0.0",
+      "name": "Alpine",
+      "kind": "material",
+      "summary": "Editable procedural rock material: Alpine.",
+      "tags": [
+        "procedural",
+        "rock",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Alpine — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 119,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/rock/alpine.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/rock/alpine/alpine.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1986,
+          "sha256": "0626c46d59e66bd006c5e71ef8141919d23826c8b08f799ed90f521d2be94ec2"
+        }
+      ],
+      "manifest": "assets/materials/rock/alpine/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.rock.fractured",
+      "version": "1.0.0",
+      "name": "Fractured",
+      "kind": "material",
+      "summary": "Editable procedural rock material: Fractured.",
+      "tags": [
+        "procedural",
+        "rock",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Fractured — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 119,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/rock/fractured.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/rock/fractured/fractured.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1987,
+          "sha256": "5096c3778a1033fa445f0f1ad574b2d4d4ebb8004ab0d6a58976d1e7f02480dd"
+        }
+      ],
+      "manifest": "assets/materials/rock/fractured/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.rock.ochre",
+      "version": "1.0.0",
+      "name": "Ochre",
+      "kind": "material",
+      "summary": "Editable procedural rock material: Ochre.",
+      "tags": [
+        "procedural",
+        "rock",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Ochre — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 119,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/rock/ochre.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/rock/ochre/ochre.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1984,
+          "sha256": "81307cb4a7c93d853931da97b4f30b90ab6792a9a56bdd7d482f8fb5a24573fc"
+        }
+      ],
+      "manifest": "assets/materials/rock/ochre/asset.json"
+    },
+    {
+      "format_version": 1,
+      "id": "ignis.material.rock.sedimentary",
+      "version": "1.0.0",
+      "name": "Sedimentary",
+      "kind": "material",
+      "summary": "Editable procedural rock material: Sedimentary.",
+      "tags": [
+        "procedural",
+        "rock",
+        "material"
+      ],
+      "license": "CC-BY-4.0",
+      "author": {
+        "name": "Guilherme Oliveira / Zerobytes",
+        "url": "https://github.com/zerobytes"
+      },
+      "attribution": "Sedimentary — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+      "compatibility": {
+        "engine": "ignis",
+        "minimum_scene_version": 119,
+        "material_library_version": 2,
+        "runtime_validation": "not_run_in_catalog"
+      },
+      "provenance": {
+        "repository": "https://github.com/zerobytes/ignis",
+        "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+        "path": "assets/materials/rock/sedimentary.ignis-material",
+        "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+        "availability": "local-unpublished"
+      },
+      "files": [
+        {
+          "path": "assets/materials/rock/sedimentary/sedimentary.ignis-material",
+          "role": "source",
+          "media_type": "application/json",
+          "bytes": 1989,
+          "sha256": "209b7e9e8f23824510ec4aee8b15e315bedc638b68ede0a7d272d710681dc72c"
+        }
+      ],
+      "manifest": "assets/materials/rock/sedimentary/asset.json"
+    }
+  ]
+}

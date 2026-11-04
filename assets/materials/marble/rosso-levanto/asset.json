@@ -1,0 +1,41 @@
+{
+  "format_version": 1,
+  "id": "ignis.material.marble.rosso-levanto",
+  "version": "1.0.0",
+  "name": "Rosso Levanto",
+  "kind": "material",
+  "summary": "Editable procedural marble material: Rosso Levanto.",
+  "tags": [
+    "procedural",
+    "marble",
+    "material"
+  ],
+  "license": "CC-BY-4.0",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "attribution": "Rosso Levanto — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+  "compatibility": {
+    "engine": "ignis",
+    "minimum_scene_version": 115,
+    "material_library_version": 2,
+    "runtime_validation": "not_run_in_catalog"
+  },
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis",
+    "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+    "path": "assets/materials/marble/rosso_levanto.ignis-material",
+    "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+    "availability": "local-unpublished"
+  },
+  "files": [
+    {
+      "path": "assets/materials/marble/rosso-levanto/rosso_levanto.ignis-material",
+      "role": "source",
+      "media_type": "application/json",
+      "bytes": 1788,
+      "sha256": "893ab6c02681b2ed90a277e6fc3404fc66b37534952b3b969678e7da6435da31"
+    }
+  ]
+}

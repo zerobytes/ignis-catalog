@@ -1,0 +1,41 @@
+{
+  "format_version": 1,
+  "id": "ignis.material.marble.emerald-gold",
+  "version": "1.0.0",
+  "name": "Emerald Gold",
+  "kind": "material",
+  "summary": "Editable procedural marble material: Emerald Gold.",
+  "tags": [
+    "procedural",
+    "marble",
+    "material"
+  ],
+  "license": "CC-BY-4.0",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "attribution": "Emerald Gold — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+  "compatibility": {
+    "engine": "ignis",
+    "minimum_scene_version": 115,
+    "material_library_version": 2,
+    "runtime_validation": "not_run_in_catalog"
+  },
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis",
+    "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+    "path": "assets/materials/marble/emerald_gold.ignis-material",
+    "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+    "availability": "local-unpublished"
+  },
+  "files": [
+    {
+      "path": "assets/materials/marble/emerald-gold/emerald_gold.ignis-material",
+      "role": "source",
+      "media_type": "application/json",
+      "bytes": 1777,
+      "sha256": "5fb1345147d663be33e3ba7993c488d34b5399048f78890b9bd33247ac475d31"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "format_version": 1,
+  "id": "ignis.material.marble.portoro",
+  "version": "1.0.0",
+  "name": "Portoro",
+  "kind": "material",
+  "summary": "Editable procedural marble material: Portoro.",
+  "tags": [
+    "procedural",
+    "marble",
+    "material"
+  ],
+  "license": "CC-BY-4.0",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "attribution": "Portoro — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+  "compatibility": {
+    "engine": "ignis",
+    "minimum_scene_version": 115,
+    "material_library_version": 2,
+    "runtime_validation": "not_run_in_catalog"
+  },
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis",
+    "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+    "path": "assets/materials/marble/portoro.ignis-material",
+    "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+    "availability": "local-unpublished"
+  },
+  "files": [
+    {
+      "path": "assets/materials/marble/portoro/portoro.ignis-material",
+      "role": "source",
+      "media_type": "application/json",
+      "bytes": 1789,
+      "sha256": "d1269b00af065409f40e375a8286c1096d3a5139b8c903b3411291b723d6ebc0"
+    }
+  ]
+}

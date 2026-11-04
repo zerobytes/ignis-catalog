@@ -1,0 +1,41 @@
+{
+  "format_version": 1,
+  "id": "ignis.material.marble.emperador",
+  "version": "1.0.0",
+  "name": "Emperador",
+  "kind": "material",
+  "summary": "Editable procedural marble material: Emperador.",
+  "tags": [
+    "procedural",
+    "marble",
+    "material"
+  ],
+  "license": "CC-BY-4.0",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "attribution": "Emperador — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+  "compatibility": {
+    "engine": "ignis",
+    "minimum_scene_version": 115,
+    "material_library_version": 2,
+    "runtime_validation": "not_run_in_catalog"
+  },
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis",
+    "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+    "path": "assets/materials/marble/emperador.ignis-material",
+    "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+    "availability": "local-unpublished"
+  },
+  "files": [
+    {
+      "path": "assets/materials/marble/emperador/emperador.ignis-material",
+      "role": "source",
+      "media_type": "application/json",
+      "bytes": 1787,
+      "sha256": "65b49a6ec09ddb5170f61aa3d8f687cb6d91ae85c8469f5c17969f5d4d525a92"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "format_version": 1,
+  "id": "ignis.material.basic.wood",
+  "version": "1.0.0",
+  "name": "Wood",
+  "kind": "material",
+  "summary": "Editable procedural basic material: Wood.",
+  "tags": [
+    "procedural",
+    "basic",
+    "material"
+  ],
+  "license": "CC-BY-4.0",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "attribution": "Wood — Guilherme Oliveira / Zerobytes, CC BY 4.0. https://github.com/zerobytes/ignis-catalog | https://creativecommons.org/licenses/by/4.0/ . Indicate modifications.",
+  "compatibility": {
+    "engine": "ignis",
+    "minimum_scene_version": 112,
+    "material_library_version": 1,
+    "runtime_validation": "not_run_in_catalog"
+  },
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis",
+    "commit": "c06b08aae3dcf9be2afdc5b0a5491f9aadff6f6f",
+    "path": "assets/materials/wood.ignis-material",
+    "note": "Original native procedural recipe; redistributed by the author under CC BY 4.0. No reference photographs included. Source commit was local and not published at transfer time; the catalog contains the complete licensed recipe bytes.",
+    "availability": "local-unpublished"
+  },
+  "files": [
+    {
+      "path": "assets/materials/basic/wood/wood.ignis-material",
+      "role": "source",
+      "media_type": "application/json",
+      "bytes": 2316,
+      "sha256": "d7bfbc9bdf6bc2b1ebb7523db2142abc548af15c0bfa7d277f0639b0b703c26a"
+    }
+  ]
+}
