@@ -9,7 +9,7 @@ configured by this repository.
 | Metadata, licenses, compact editable recipes | Public GitHub repository | Review additions and keep history small |
 | Preview thumbnails | Small optimized files beside manifests | Full-resolution renders/videos stay external |
 | Large distributable assets | Versioned Releases or the author's HTTPS host | Exact version, byte count, SHA-256, optional mirrors |
-| Future browse/search website | Static frontend; Pages is a candidate | Index and thumbnails only |
+| Browse/search website | Existing Ignis site, static frontend | Index and thumbnails only |
 | Imported assets | User's project/cache | Download selected assets, not the entire catalog |
 
 The initial 20 material sources total **38,609 bytes**, about 37.7 KiB. They are
@@ -27,7 +27,8 @@ generation still requires a compatible engine and its CPU/GPU work.
   free for public repositories, at most 1 GB published site, soft bandwidth limit
   100 GB/month. A free community catalog can be static. Pages does not permit
   ecommerce primarily facilitating commercial transactions. A paid marketplace
-  needs a different hosting review. Pages is not enabled in this increment.
+  needs a different hosting review. The portal uses the existing Ignis site;
+  this catalog repository does not create another Pages site.
 - [GitHub repository limits](https://docs.github.com/en/repositories/creating-and-managing-repositories/repository-limits):
   single Git object recommended <=1 MB, enforced at 100 MB; large generated
   payloads belong outside Git. Our validator deliberately limits local asset

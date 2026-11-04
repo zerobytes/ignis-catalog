@@ -8,8 +8,10 @@ versioned integrity metadata. Start with **20 procedural materials**: 12 marble
 families, 4 continuous stone families and 4 basic surfaces. Source payloads total
 **38,609 bytes**. No account, paid backend or Git LFS required.
 
-This is the catalog foundation. A visual storefront and editor install integration
-are [next steps](docs/roadmap.md).
+**[Explore the asset portal](https://ignis.web.app/catalog/?lang=en)** inside the
+Ignis website. Its interactive browser preview uses native Ignis WGSL material
+shaders and GPU packets. [GitHub Pages mirror](https://zerobytes.github.io/ignis/catalog/?lang=en).
+Editor installation and more asset families remain [next steps](docs/roadmap.md).
 
 ## Browse and use
 
