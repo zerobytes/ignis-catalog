@@ -3,7 +3,7 @@
 Catálogo comunitário gratuito de assets para a [Ignis](https://github.com/zerobytes/ignis).
 [English](README.md)
 
-Começamos com **20 materiais procedurais editáveis**: 12 mármores, 4 rochas e
+A coleção tem **8 meshes de árvores e 20 materiais procedurais editáveis**: 12 mármores, 4 rochas e
 4 superfícies básicas. As receitas somam **38.609 bytes**. Veja os arquivos no
 [índice de materiais](README.md#browse-and-use).
 
@@ -15,6 +15,22 @@ Baixe o `.ignis-material` e carregue pelo painel **Aparência → Biblioteca de
 materiais** de uma Ignis compatível. Cada `asset.json` informa licença, créditos,
 origem, hash e requisitos de formato. O material pode continuar procedural em
 runtime ou gerar mapas fixos pelo editor. A geração acontece na engine.
+
+## Árvores e meshes
+
+Palmeirinha, plátano, eucalipto, figueira de copa ampla, figueira campestre e três
+bétulas douradas estão na [versão trees-v1.0.0](https://github.com/zerobytes/ignis-catalog/releases/tag/trees-v1.0.0).
+Cada ZIP traz a fonte botânica original, cena Ignis completa e editável com
+materiais, GLB com toda a geometria, licença e checksums. Abra `tree.scene.json`
+num editor Ignis compatível. O GLB usa cores PBR representativas; padrões
+procedurais permanecem nos arquivos nativos.
+
+A prévia web usa geometria e shader nativos com tesselação reduzida, indicada no
+portal. O download mantém a resolução completa. As prévias só carregam após
+ativação, com tamanho informado. As fontes mantêm todos os órgãos autorais;
+não são simulações botânicas calibradas. Não incluímos fotos de referência ou
+conteúdo de jogo em desenvolvimento. Novos tipos de objetos podem usar a mesma
+estrutura de meshes e pacotes versionados.
 
 ## Como manter gratuito
 

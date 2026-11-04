@@ -1,0 +1,97 @@
+{
+  "format_version": 1,
+  "id": "ignis.mesh.tree.platano",
+  "version": "1.0.0",
+  "kind": "mesh",
+  "name": "Plane tree",
+  "summary": "Editable native botanical tree with full mesh, source recipe and materials.",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "license": "CC-BY-4.0",
+  "attribution": "Plane tree by Guilherme Oliveira / Zerobytes — CC BY 4.0 — https://github.com/zerobytes/ignis-catalog",
+  "tags": [
+    "trees",
+    "mesh",
+    "botany",
+    "platano"
+  ],
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis",
+    "commit": "5e2d0e976937629270b04c23bfe9630cdc5ea2b1",
+    "path": "assets/botany/platano.ignis-botany",
+    "source_sha256": "e16c68f39ccef28662840669e3d4ab6be8f8623066d51feb41a7f290ea2beb87",
+    "availability": "local-unpublished",
+    "note": "The tracked source snapshot was local at transfer time; this release includes its complete licensed source. No reference images included."
+  },
+  "compatibility": {
+    "engine": "ignis",
+    "runtime_validation": "Native bake, scene validation and native renderer capture. Static preview only; botanical physics is not run in the browser.",
+    "botany_recipe_version": 4
+  },
+  "mesh": {
+    "vertices": 2335750,
+    "triangles": 4650248,
+    "bounds": {
+      "max": [
+        8.01821517944336,
+        18.563261032104492,
+        8.500114440917969
+      ],
+      "min": [
+        -7.824755668640137,
+        -0.04086841642856598,
+        -8.54809856414795
+      ]
+    }
+  },
+  "native_preview": {
+    "format": "IGMP1+gzip",
+    "quality": "reduced-tessellation",
+    "tessellation": {
+      "axis_samples": 8,
+      "blade_samples": 4,
+      "sides": 6
+    },
+    "decoded_bytes": 102003916,
+    "decoded_sha256": "57732e04bde3b5c3f23c82244a0d0cc8028f72ca5885d190ba6cacdb7fae52d9",
+    "vertices": 2130310,
+    "triangles": 4239368,
+    "bounds": {
+      "max": [
+        8.015301704406738,
+        18.56914520263672,
+        8.496986389160156
+      ],
+      "min": [
+        -7.820223331451416,
+        -0.04086841642856598,
+        -8.5431547164917
+      ]
+    }
+  },
+  "files": [
+    {
+      "role": "source",
+      "media_type": "application/zip",
+      "bytes": 117207096,
+      "sha256": "2538de82b6e7b4b18b373c41cf45bf46299b8954d149324b2cc2e576c29852a0",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/trees-v1.0.0/ignis.mesh.tree.platano.zip"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 58192692,
+      "sha256": "c1ff602b0db6b376a5bfb8b23cacb99a5d1a89979e55b829ab62b73c2142abaa",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/trees-v1.0.0/ignis.mesh.tree.platano.igmpz"
+    },
+    {
+      "role": "preview",
+      "media_type": "image/jpeg",
+      "bytes": 13318,
+      "sha256": "a849b65f230a2abf8251fa1069c133233a7a77b673155b2b0019e5477678240a",
+      "path": "assets/meshes/trees/platano/thumbnail.jpg"
+    }
+  ]
+}

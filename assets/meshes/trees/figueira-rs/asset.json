@@ -1,0 +1,97 @@
+{
+  "format_version": 1,
+  "id": "ignis.mesh.tree.figueira-rs",
+  "version": "1.0.0",
+  "kind": "mesh",
+  "name": "Countryside fig",
+  "summary": "Editable native botanical tree with full mesh, source recipe and materials.",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "license": "CC-BY-4.0",
+  "attribution": "Countryside fig by Guilherme Oliveira / Zerobytes — CC BY 4.0 — https://github.com/zerobytes/ignis-catalog",
+  "tags": [
+    "trees",
+    "mesh",
+    "botany",
+    "figueira-rs"
+  ],
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis",
+    "commit": "5e2d0e976937629270b04c23bfe9630cdc5ea2b1",
+    "path": "assets/botany/figueira_rs.ignis-botany",
+    "source_sha256": "ff55cb8d68b3d6fb9d3d3f4bbe37d17035f48efd29a37c9eb205b410ffebce41",
+    "availability": "local-unpublished",
+    "note": "The tracked source snapshot was local at transfer time; this release includes its complete licensed source. No reference images included."
+  },
+  "compatibility": {
+    "engine": "ignis",
+    "runtime_validation": "Native bake, scene validation and native renderer capture. Static preview only; botanical physics is not run in the browser.",
+    "botany_recipe_version": 7
+  },
+  "mesh": {
+    "vertices": 2884806,
+    "triangles": 5644424,
+    "bounds": {
+      "max": [
+        14.4595365524292,
+        15.566461563110352,
+        15.569226264953613
+      ],
+      "min": [
+        -12.110258102416992,
+        -1.3071138858795166,
+        -14.375956535339355
+      ]
+    }
+  },
+  "native_preview": {
+    "format": "IGMP1+gzip",
+    "quality": "reduced-tessellation",
+    "tessellation": {
+      "axis_samples": 8,
+      "blade_samples": 4,
+      "sides": 6
+    },
+    "decoded_bytes": 69144220,
+    "decoded_sha256": "a9eb38a4a6fbf5030c7addeca45e4af28bed9ef931472ef9a27ef67535fa2d10",
+    "vertices": 1471716,
+    "triangles": 2818244,
+    "bounds": {
+      "max": [
+        14.447172164916992,
+        15.574305534362793,
+        15.518535614013672
+      ],
+      "min": [
+        -12.110258102416992,
+        -1.3071134090423584,
+        -14.364788055419922
+      ]
+    }
+  },
+  "files": [
+    {
+      "role": "source",
+      "media_type": "application/zip",
+      "bytes": 159960651,
+      "sha256": "ae9c7b23322075328aff6241b6a294eaf63822911a7108e444753c6093e33ccb",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/trees-v1.0.0/ignis.mesh.tree.figueira-rs.zip"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 41451657,
+      "sha256": "17cf5108730adf0f80858c834a0cf71b5f0afb36d390b8e3c31c5a959850b0cb",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/trees-v1.0.0/ignis.mesh.tree.figueira-rs.igmpz"
+    },
+    {
+      "role": "preview",
+      "media_type": "image/jpeg",
+      "bytes": 11508,
+      "sha256": "6428fe76faf46f6034559547f8cd8497018504518689ea5866f61ceaa7e19695",
+      "path": "assets/meshes/trees/figueira-rs/thumbnail.jpg"
+    }
+  ]
+}

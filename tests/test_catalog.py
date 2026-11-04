@@ -17,7 +17,7 @@ class IntegrityTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
-        source = next((ROOT / 'assets').rglob('asset.json'))
+        source = next((ROOT / 'assets/materials').rglob('asset.json'))
         self.directory = self.root / source.parent.relative_to(ROOT)
         shutil.copytree(source.parent, self.directory)
         self.path = self.directory / 'asset.json'
@@ -75,6 +75,33 @@ class IntegrityTests(unittest.TestCase):
 
     def test_generated_index_matches_valid_sources(self):
         self.assertEqual((ROOT / 'catalog.json').read_text(), catalog.encoded())
+
+
+class MeshIntegrityTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        source = next((ROOT / 'assets/meshes').rglob('asset.json'))
+        self.directory = self.root / source.parent.relative_to(ROOT)
+        shutil.copytree(source.parent, self.directory)
+        self.path = self.directory / 'asset.json'
+        self.item = json.loads(self.path.read_text())
+
+    def test_mesh_record_offline_validation(self):
+        self.assertEqual(catalog.records(self.root)[0]['kind'], 'mesh')
+
+    def test_decoded_payload_budget_rejected(self):
+        self.item['native_preview']['decoded_bytes'] = 193 * 1024 * 1024
+        self.path.write_text(json.dumps(self.item))
+        with self.assertRaisesRegex(ValueError, 'decoded preview budget'):
+            catalog.records(self.root)
+
+    def test_nonfinite_bounds_rejected(self):
+        self.item['mesh']['bounds']['min'][0] = float('nan')
+        self.path.write_text(json.dumps(self.item))
+        with self.assertRaisesRegex(ValueError, 'mesh bounds'):
+            catalog.records(self.root)
 
 
 if __name__ == '__main__':

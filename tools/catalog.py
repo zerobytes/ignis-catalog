@@ -76,6 +76,19 @@ def records(root=ROOT):
         compatibility = item['compatibility']
         require(compatibility['engine'] == 'ignis', 'Unsupported engine')
         require(text(compatibility['runtime_validation']), 'Missing validation scope')
+        if item['kind'] == 'mesh':
+            for geometry in (item['mesh'], item['native_preview']):
+                require(type(geometry['vertices']) is int and 0 < geometry['vertices'] <= 3_000_000, 'Invalid mesh vertex budget')
+                require(type(geometry['triangles']) is int and 0 < geometry['triangles'] <= 6_000_000, 'Invalid mesh triangle budget')
+                bounds = geometry['bounds']
+                require(all(isinstance(bounds[k], list) and len(bounds[k]) == 3 for k in ('min','max')), 'Invalid mesh bounds')
+                import math
+                require(all(isinstance(v, (int, float)) and math.isfinite(v) for k in bounds for v in bounds[k]), 'Invalid mesh bounds')
+                require(all(a <= b for a, b in zip(bounds['min'], bounds['max'])), 'Invalid mesh bounds')
+            preview = item['native_preview']
+            require(preview['format'] == 'IGMP1+gzip' and preview['quality'] in {'full', 'reduced-tessellation'}, 'Unsupported native mesh preview')
+            require(type(preview['decoded_bytes']) is int and 0 < preview['decoded_bytes'] <= 192 * 1024 * 1024, 'Invalid decoded preview budget')
+            require(re.fullmatch(r'[a-f0-9]{64}', preview['decoded_sha256']), 'Missing decoded preview hash')
         files = item['files']
         require(isinstance(files, list) and files, 'Asset has no files')
         require(any(f['role'] == 'source' for f in files), 'Editable source is required')

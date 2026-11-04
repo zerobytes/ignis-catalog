@@ -1,0 +1,97 @@
+{
+  "format_version": 1,
+  "id": "ignis.mesh.tree.palmeirinha",
+  "version": "1.0.0",
+  "kind": "mesh",
+  "name": "Areca palm",
+  "summary": "Editable native botanical tree with full mesh, source recipe and materials.",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "license": "CC-BY-4.0",
+  "attribution": "Areca palm by Guilherme Oliveira / Zerobytes — CC BY 4.0 — https://github.com/zerobytes/ignis-catalog",
+  "tags": [
+    "trees",
+    "mesh",
+    "botany",
+    "palmeirinha"
+  ],
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis",
+    "commit": "5e2d0e976937629270b04c23bfe9630cdc5ea2b1",
+    "path": "assets/botany/palmeirinha.ignis-botany",
+    "source_sha256": "032ae6e4fab86548bf2e0b1459fb3c2ee37357859ffd45fad5b67ad50558c241",
+    "availability": "local-unpublished",
+    "note": "The tracked source snapshot was local at transfer time; this release includes its complete licensed source. No reference images included."
+  },
+  "compatibility": {
+    "engine": "ignis",
+    "runtime_validation": "Native bake, scene validation and native renderer capture. Static preview only; botanical physics is not run in the browser.",
+    "botany_recipe_version": 3
+  },
+  "mesh": {
+    "vertices": 481728,
+    "triangles": 946944,
+    "bounds": {
+      "max": [
+        1.7266637086868286,
+        4.980625152587891,
+        1.8326197862625122
+      ],
+      "min": [
+        -1.7714852094650269,
+        -0.004694212228059769,
+        -1.5932869911193848
+      ]
+    }
+  },
+  "native_preview": {
+    "format": "IGMP1+gzip",
+    "quality": "reduced-tessellation",
+    "tessellation": {
+      "axis_samples": 8,
+      "blade_samples": 4,
+      "sides": 6
+    },
+    "decoded_bytes": 6644224,
+    "decoded_sha256": "2a155aefb144c00b28c72e4cf66caedc1c4995c8e6bae739163412eeb57537ff",
+    "vertices": 142464,
+    "triangles": 268416,
+    "bounds": {
+      "max": [
+        1.7266452312469482,
+        4.9804768562316895,
+        1.8326197862625122
+      ],
+      "min": [
+        -1.7714728116989136,
+        -0.004694212228059769,
+        -1.593258261680603
+      ]
+    }
+  },
+  "files": [
+    {
+      "role": "source",
+      "media_type": "application/zip",
+      "bytes": 25446762,
+      "sha256": "86ccf6c2eadf7ce1fbdec33afe319b9a835b0f4bae0678d3a083adc22e111266",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/trees-v1.0.0/ignis.mesh.tree.palmeirinha.zip"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 4025278,
+      "sha256": "17e49b013152ff22775f0332b263759bd6d71ca2e5d9aa490e1f10ded61213fa",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/trees-v1.0.0/ignis.mesh.tree.palmeirinha.igmpz"
+    },
+    {
+      "role": "preview",
+      "media_type": "image/jpeg",
+      "bytes": 11396,
+      "sha256": "6e63dd71699c4a31c1b3d66ad22461b0d59c8774fcc5991891dd20144630ec06",
+      "path": "assets/meshes/trees/palmeirinha/thumbnail.jpg"
+    }
+  ]
+}

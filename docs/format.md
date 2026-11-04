@@ -37,3 +37,12 @@ The index selects one current version per asset, not a dependency/version solver
 
 No engine installer, account/payment/rating backend, dependency resolver or
 automatic migration of built-in engine presets is delivered in v1.
+
+
+Static mesh records add `mesh` (full vertices/triangles/world bounds) and
+`native_preview` (separate counts/bounds, IGMP1+gzip format, quality,
+tessellation, decoded size and SHA-256). Source files can be a versioned ZIP
+containing the editable source, full mesh, materials and a file-level checksum
+list. A remote compressed preview and a small local native-capture thumbnail
+are listed separately. The offline validator verifies local content and shape;
+release/deployment tooling verifies the remote payload bytes.

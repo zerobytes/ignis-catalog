@@ -4,9 +4,9 @@ A free community asset catalog for [Ignis](https://github.com/zerobytes/ignis).
 [Português](README.pt-BR.md)
 
 Reusable content with editable sources, explicit licenses, attribution and
-versioned integrity metadata. Start with **20 procedural materials**: 12 marble
-families, 4 continuous stone families and 4 basic surfaces. Source payloads total
-**38,609 bytes**. No account, paid backend or Git LFS required.
+versioned integrity metadata. The collection contains **8 editable tree meshes and 20 procedural materials**: 12 marble
+families, 4 continuous stone families and 4 basic surfaces. Material sources total
+**38,609 bytes**. Tree packages are versioned downloads outside Git. No account, paid backend or Git LFS required.
 
 **[Explore the asset portal](https://ignis.web.app/catalog/?lang=en)** inside the
 Ignis website. Its interactive browser preview uses native Ignis WGSL material
@@ -56,6 +56,27 @@ python3 tools/catalog.py validate
 python3 tools/catalog.py build --check
 python3 -m unittest discover -s tests -v
 ```
+
+## Tree meshes
+
+Eight trees are available in [trees-v1.0.0](https://github.com/zerobytes/ignis-catalog/releases/tag/trees-v1.0.0):
+areca palm, plane tree, eucalyptus, broad-crown fig, countryside fig, and three
+golden birch variants. [Mesh manifests](assets/meshes/trees) contain download
+URLs, SHA-256, exact sizes, original provenance and full/preview geometry counts.
+
+Each ZIP contains the unchanged botanical source, a complete editable Ignis scene
+with its native materials/source binding, full-geometry GLB, license and checksums.
+Open `tree.scene.json` in a compatible Ignis editor. GLB preserves geometry and
+uses representative portable PBR colors; native procedural patterns remain in the
+Ignis files. The portal renders actual native mesh data with the Ignis shader,
+using reduced preview tessellation (axis8 / sides6 / blade4), explicitly labelled.
+Palmate leaves retain the native contour resolution. All organs are retained;
+the download is full resolution. No reference images or unfinished game content
+are included. Assets are authored, not scientifically calibrated botanical models.
+
+Previews load only when activated; their transfer size is displayed. Large
+payloads are pinned to this release and verified before use. The catalog can add
+other static mesh families using the same records and package format.
 
 ## Hosting and contribution
 

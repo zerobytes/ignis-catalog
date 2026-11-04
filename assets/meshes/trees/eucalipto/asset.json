@@ -1,0 +1,97 @@
+{
+  "format_version": 1,
+  "id": "ignis.mesh.tree.eucalipto",
+  "version": "1.0.0",
+  "kind": "mesh",
+  "name": "Eucalyptus",
+  "summary": "Editable native botanical tree with full mesh, source recipe and materials.",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "license": "CC-BY-4.0",
+  "attribution": "Eucalyptus by Guilherme Oliveira / Zerobytes — CC BY 4.0 — https://github.com/zerobytes/ignis-catalog",
+  "tags": [
+    "trees",
+    "mesh",
+    "botany",
+    "eucalipto"
+  ],
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis",
+    "commit": "5e2d0e976937629270b04c23bfe9630cdc5ea2b1",
+    "path": "assets/botany/eucalipto.ignis-botany",
+    "source_sha256": "f6085a14b09f3b6d3dfe9a1c666dad486e6feb68238a37e115947a05baa2ac86",
+    "availability": "local-unpublished",
+    "note": "The tracked source snapshot was local at transfer time; this release includes its complete licensed source. No reference images included."
+  },
+  "compatibility": {
+    "engine": "ignis",
+    "runtime_validation": "Native bake, scene validation and native renderer capture. Static preview only; botanical physics is not run in the browser.",
+    "botany_recipe_version": 4
+  },
+  "mesh": {
+    "vertices": 1512222,
+    "triangles": 2953400,
+    "bounds": {
+      "max": [
+        8.037596702575684,
+        22.904958724975586,
+        8.63642406463623
+      ],
+      "min": [
+        -8.994375228881836,
+        -0.013933655805885792,
+        -9.187928199768066
+      ]
+    }
+  },
+  "native_preview": {
+    "format": "IGMP1+gzip",
+    "quality": "reduced-tessellation",
+    "tessellation": {
+      "axis_samples": 8,
+      "blade_samples": 4,
+      "sides": 6
+    },
+    "decoded_bytes": 35460592,
+    "decoded_sha256": "f5cb818f06293f65dda779859f4e994982c3ea3b8c25d070d8383e7924978225",
+    "vertices": 756438,
+    "triangles": 1441832,
+    "bounds": {
+      "max": [
+        8.026850700378418,
+        22.90592384338379,
+        8.635483741760254
+      ],
+      "min": [
+        -8.994643211364746,
+        -0.013933655805885792,
+        -9.185460090637207
+      ]
+    }
+  },
+  "files": [
+    {
+      "role": "source",
+      "media_type": "application/zip",
+      "bytes": 84054202,
+      "sha256": "149b7d38f66ca7fa8b5ecf97d9d4e2dad6f486a4e1ce9b97637374431ca8c2fb",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/trees-v1.0.0/ignis.mesh.tree.eucalipto.zip"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 21266400,
+      "sha256": "1be809da529f5cc6695df25d37f9ece1eae34cc370aea7b3d6f8840061329f55",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/trees-v1.0.0/ignis.mesh.tree.eucalipto.igmpz"
+    },
+    {
+      "role": "preview",
+      "media_type": "image/jpeg",
+      "bytes": 11837,
+      "sha256": "d7c94144ba76f70d09b18523ecc6a27d40a160d277a1e38babd541ac01d77676",
+      "path": "assets/meshes/trees/eucalipto/thumbnail.jpg"
+    }
+  ]
+}

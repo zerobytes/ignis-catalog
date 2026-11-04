@@ -1,0 +1,97 @@
+{
+  "format_version": 1,
+  "id": "ignis.mesh.tree.birch-2",
+  "version": "1.0.0",
+  "kind": "mesh",
+  "name": "Golden birch — Slender leaning crown",
+  "summary": "Editable native botanical tree with full mesh, source recipe and materials.",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "license": "CC-BY-4.0",
+  "attribution": "Golden birch — Slender leaning crown by Guilherme Oliveira / Zerobytes — CC BY 4.0 — https://github.com/zerobytes/ignis-catalog",
+  "tags": [
+    "trees",
+    "mesh",
+    "botany",
+    "birch-2"
+  ],
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis",
+    "commit": "5e2d0e976937629270b04c23bfe9630cdc5ea2b1",
+    "path": "assets/botany/genshin-birch/birch_2.ignis-botany",
+    "source_sha256": "367ffe4adbc0b165b934bc05b3838a8c1cb1e63025d9cfd951ee52a41c714f56",
+    "availability": "local-unpublished",
+    "note": "The tracked source snapshot was local at transfer time; this release includes its complete licensed source. No reference images included."
+  },
+  "compatibility": {
+    "engine": "ignis",
+    "runtime_validation": "Native bake, scene validation and native renderer capture. Static preview only; botanical physics is not run in the browser.",
+    "botany_recipe_version": 7
+  },
+  "mesh": {
+    "vertices": 376426,
+    "triangles": 721456,
+    "bounds": {
+      "max": [
+        1.9690372943878174,
+        8.825493812561035,
+        2.0730960369110107
+      ],
+      "min": [
+        -2.0068182945251465,
+        -0.0005342367803677917,
+        -2.1207854747772217
+      ]
+    }
+  },
+  "native_preview": {
+    "format": "IGMP1+gzip",
+    "quality": "reduced-tessellation",
+    "tessellation": {
+      "axis_samples": 8,
+      "blade_samples": 4,
+      "sides": 6
+    },
+    "decoded_bytes": 22664932,
+    "decoded_sha256": "606e5fbb11c9587f65c6e3e178259eb49c45eb490a54fafa978fb93ec8c69062",
+    "vertices": 305186,
+    "triangles": 578976,
+    "bounds": {
+      "max": [
+        1.9690403938293457,
+        8.825498580932617,
+        2.073091983795166
+      ],
+      "min": [
+        -2.0068132877349854,
+        -0.0005342367803677917,
+        -2.120788335800171
+      ]
+    }
+  },
+  "files": [
+    {
+      "role": "source",
+      "media_type": "application/zip",
+      "bytes": 27691791,
+      "sha256": "7feacd401e2e2ba3d9192fd357c7e3c85f9faf10b1f2c26188e3195ba118064d",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/trees-v1.0.0/ignis.mesh.tree.birch-2.zip"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 11085268,
+      "sha256": "4fa8c0e9feba09b36edb4036fc0a2b9d7b5427e384163bdc5cba0559cbf70e4f",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/trees-v1.0.0/ignis.mesh.tree.birch-2.igmpz"
+    },
+    {
+      "role": "preview",
+      "media_type": "image/jpeg",
+      "bytes": 18091,
+      "sha256": "4d8fe7877fb148e1fadef631c4ae826c72015c6ae137f47e5676eaf2dc91310f",
+      "path": "assets/meshes/trees/birch-2/thumbnail.jpg"
+    }
+  ]
+}
