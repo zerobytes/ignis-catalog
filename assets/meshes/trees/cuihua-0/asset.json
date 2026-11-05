@@ -1,10 +1,10 @@
 {
   "format_version": 1,
   "id": "ignis.mesh.tree.cuihua-0",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "kind": "mesh",
   "name": "Cuihua-inspired fruit tree — Rounded orchard crown",
-  "summary": "Original Cuihua-inspired green fruit tree with editable native growth and periodic flower/fruit cohorts. Browser and GLB are static snapshots.",
+  "summary": "Revised dense Cuihua-inspired crown with short robust trunk, editable native growth and periodic flower/fruit cohorts. Browser and GLB are static snapshots.",
   "author": {
     "name": "Guilherme Oliveira / Zerobytes",
     "url": "https://github.com/zerobytes"
@@ -23,32 +23,32 @@
   ],
   "provenance": {
     "repository": "https://github.com/zerobytes/ignis",
-    "commit": "13122fa4f6cc2ddc624bcc4a5721831556c4f991",
+    "commit": "b64344635baf502c33ee44f7b411fe6ae1e9fd90",
     "path": "assets/botany/genshin-cuihua/cuihua_0.ignis-botany",
-    "source_sha256": "1c4d4bb9f054e677fa6c868c2169e6b7f46fc10f8a3699f52494be1e6b0af9ac",
+    "source_sha256": "6f8bb811687d55402e26ffcabe3fd2f41269dab8c4e8688af06c9c8b67282a3a",
     "availability": "local-unpublished",
     "note": "The tracked source snapshot was local at transfer time; this release includes its complete licensed source. No reference images included."
   },
   "compatibility": {
     "engine": "ignis",
     "runtime_validation": "Native bake, scene validation and native renderer capture. Static preview only; botanical physics is not run in the browser.",
-    "botany_recipe_version": 13,
+    "botany_recipe_version": 14,
     "growth_grammar_version": 9,
-    "note": "Requires an Ignis build supporting authored growth grammar9 and botany recipe13. Fruit geometry uses the existing apple-like generic cohort, not an exact Sunsettia sculpture."
+    "note": "Requires authored growth grammar9 and botany recipe14 support. Generic red cohort fruit does not reconstruct exact Sunsettia shape/color; lower scaffold and lighting remain approximate."
   },
   "mesh": {
-    "vertices": 370450,
-    "triangles": 704394,
+    "vertices": 1242680,
+    "triangles": 2366466,
     "bounds": {
       "max": [
-        2.231599807739258,
-        5.663385391235352,
-        2.0018868446350098
+        2.454746961593628,
+        5.031734943389893,
+        2.0758211612701416
       ],
       "min": [
-        -2.168985366821289,
-        -0.0009600972407497466,
-        -2.3148744106292725
+        -2.1367597579956055,
+        -0.0028377841226756573,
+        -2.207073450088501
       ]
     }
   },
@@ -60,20 +60,20 @@
       "blade_samples": 4,
       "sides": 6
     },
-    "decoded_bytes": 24023520,
-    "decoded_sha256": "88a8c2ee6133f05e8ad2cd52967e02625bba910d8f88082819b3ed674c2cb185",
-    "vertices": 334652,
-    "triangles": 632798,
+    "decoded_bytes": 58156756,
+    "decoded_sha256": "50b06cb99c04933531a63eff44270e01c45514759e2acd53f0bc8e8ed837b329",
+    "vertices": 1066358,
+    "triangles": 2013822,
     "bounds": {
       "max": [
-        2.231600522994995,
-        5.663390159606934,
-        2.001892328262329
+        2.4547386169433594,
+        5.031734466552734,
+        2.0758254528045654
       ],
       "min": [
-        -2.1689846515655518,
-        -0.0009600972407497466,
-        -2.314871072769165
+        -2.1367645263671875,
+        -0.0028377841226756573,
+        -2.2070720195770264
       ]
     }
   },
@@ -81,22 +81,22 @@
     {
       "role": "source",
       "media_type": "application/zip",
-      "bytes": 32248277,
-      "sha256": "89e811c6f22e968495d22a1842af28832b90f90f68ac1128fb6264f8e44afe21",
-      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/cuihua-v1.0.0/ignis.mesh.tree.cuihua-0.zip"
+      "bytes": 92424619,
+      "sha256": "c016582b0590f920a848addd581bc81b9198a41d68bb91fc93d473da92a2123c",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/cuihua-v1.1.0/ignis.mesh.tree.cuihua-0.zip"
     },
     {
       "role": "preview",
       "media_type": "application/vnd.ignis.mesh-preview+gzip",
-      "bytes": 12271676,
-      "sha256": "c27845bbd29eba3d0026af2c084f55d99d246f202c699fc74454863dc42cbaaa",
-      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/cuihua-v1.0.0/ignis.mesh.tree.cuihua-0.igmpz"
+      "bytes": 32722603,
+      "sha256": "859a0cda2fe800d327e1aab71f65ed54885f33256d950ec3d542a5f12cbfcdaa",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/cuihua-v1.1.0/ignis.mesh.tree.cuihua-0.igmpz"
     },
     {
       "role": "preview",
       "media_type": "image/jpeg",
-      "bytes": 13840,
-      "sha256": "3c4a81cbc835ba09598e659b53548a8a6d46c4de80ec14a5f1c5543ef588c2b3",
+      "bytes": 11614,
+      "sha256": "28fcef928001844346883e7adaf770d6ed315972fbcf87d1746b7bb150778d8b",
       "path": "assets/meshes/trees/cuihua-0/thumbnail.jpg"
     }
   ],
