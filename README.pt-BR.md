@@ -3,7 +3,7 @@
 Catálogo comunitário gratuito de assets para a [Ignis](https://github.com/zerobytes/ignis).
 [English](README.md)
 
-A coleção tem **8 meshes de árvores e 20 materiais procedurais editáveis**: 12 mármores, 4 rochas e
+A coleção tem **11 meshes de árvores e 20 materiais procedurais editáveis**: 12 mármores, 4 rochas e
 4 superfícies básicas. As receitas somam **38.609 bytes**. Veja os arquivos no
 [índice de materiais](README.md#browse-and-use).
 

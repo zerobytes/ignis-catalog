@@ -4,7 +4,7 @@ A free community asset catalog for [Ignis](https://github.com/zerobytes/ignis).
 [Português](README.pt-BR.md)
 
 Reusable content with editable sources, explicit licenses, attribution and
-versioned integrity metadata. The collection contains **8 editable tree meshes and 20 procedural materials**: 12 marble
+versioned integrity metadata. The collection contains **11 editable tree meshes and 20 procedural materials**: 12 marble
 families, 4 continuous stone families and 4 basic surfaces. Material sources total
 **38,609 bytes**. Tree packages are versioned downloads outside Git. No account, paid backend or Git LFS required.
 
