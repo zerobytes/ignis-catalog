@@ -47,29 +47,44 @@
     }
   },
   "native_preview": {
-    "format": "IGMP1+gzip",
-    "quality": "reduced-tessellation",
-    "tessellation": {
-      "axis_samples": 8,
-      "blade_samples": 4,
-      "sides": 6
-    },
-    "decoded_bytes": 70144920,
-    "decoded_sha256": "b2f8641303176c02fd8fc12b1b4c693f19f9679dcc7d25b4de37a68c9a233e70",
-    "vertices": 1498388,
-    "triangles": 2848292,
+    "format": "IGMP2+gzip-parts",
+    "quality": "full-native",
+    "material_appearance": "native-materials",
+    "parts": [
+      {
+        "file": "ignis.mesh.tree.figueira.native-part-0.igmpz",
+        "packet_bytes": 35325580,
+        "packet_sha256": "a6d3939530574a71ee565a69a06c833e7d282872071f0ab0a11f09124fd6722d",
+        "decoded_bytes": 61813276,
+        "decoded_sha256": "127160fc87ed8949b394d2dfbe94f60dd12d8f57ea0b7a6ce6a90185e2c965da",
+        "vertices": 858490,
+        "triangles": 1716976
+      },
+      {
+        "file": "ignis.mesh.tree.figueira.native-part-1.igmpz",
+        "packet_bytes": 51154286,
+        "packet_sha256": "3ecdeeb2c10f58567eb0a1137c3f0d20097570a2bbda90ec6b375856a074a965",
+        "decoded_bytes": 89090048,
+        "decoded_sha256": "fd2ee136ba6f77d8f6b13c6dd5a7893929b2913c66da38812fccc9614487a881",
+        "vertices": 1262080,
+        "triangles": 2375680
+      }
+    ],
+    "vertices": 2120570,
+    "triangles": 4092656,
     "bounds": {
-      "max": [
-        13.573077201843262,
-        12.909526824951172,
-        11.861016273498535
-      ],
       "min": [
-        -13.948681831359863,
-        -2.1016979217529297,
-        -11.964497566223145
+        -13.949251174926758,
+        -2.1016080379486084,
+        -11.965088844299316
+      ],
+      "max": [
+        13.571788787841797,
+        12.919195175170898,
+        11.864731788635254
       ]
-    }
+    },
+    "source_sha256": "1c05eea7ef5a03defbfb8024f290e50266e216d2755fc82b28fbf29e07c19e6d"
   },
   "files": [
     {
@@ -81,17 +96,24 @@
     },
     {
       "role": "preview",
-      "media_type": "application/vnd.ignis.mesh-preview+gzip",
-      "bytes": 42203940,
-      "sha256": "e840b18469d6945c723969625c83143baaa8448eac7c180d89038dafa5f9f2c1",
-      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/trees-v1.0.0/ignis.mesh.tree.figueira.igmpz"
-    },
-    {
-      "role": "preview",
       "media_type": "image/jpeg",
       "bytes": 12736,
       "sha256": "4ff2e64fddd3187d959000230fa4c8dcb82918141edb67d4ed1f4cb6167b4b1d",
       "path": "assets/meshes/trees/figueira/thumbnail.jpg"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 35325580,
+      "sha256": "a6d3939530574a71ee565a69a06c833e7d282872071f0ab0a11f09124fd6722d",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/native-previews-v2/ignis.mesh.tree.figueira.native-part-0.igmpz"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 51154286,
+      "sha256": "3ecdeeb2c10f58567eb0a1137c3f0d20097570a2bbda90ec6b375856a074a965",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/native-previews-v2/ignis.mesh.tree.figueira.native-part-1.igmpz"
     }
   ]
 }

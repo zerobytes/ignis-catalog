@@ -47,29 +47,44 @@
     }
   },
   "native_preview": {
-    "format": "IGMP1+gzip",
-    "quality": "reduced-tessellation",
-    "tessellation": {
-      "axis_samples": 8,
-      "blade_samples": 4,
-      "sides": 6
-    },
-    "decoded_bytes": 22663492,
-    "decoded_sha256": "bd14a74843f6ce87cf7045e6f51bf05c5b0a2284780794f5363d0418f4eb02b5",
-    "vertices": 305156,
-    "triangles": 578916,
+    "format": "IGMP2+gzip-parts",
+    "quality": "full-native",
+    "material_appearance": "native-materials",
+    "parts": [
+      {
+        "file": "ignis.mesh.tree.birch-1.native-part-0.igmpz",
+        "packet_bytes": 5405988,
+        "packet_sha256": "37553c53c8d14d976a3a9f69919b527abee921def4fe8405e797ec0a0348b08a",
+        "decoded_bytes": 12073892,
+        "decoded_sha256": "95183c2f352d474053c74a9b78731b4082e2b7bc5e6c0a3d6d81bc2737faa3a7",
+        "vertices": 109410,
+        "triangles": 218816
+      },
+      {
+        "file": "ignis.mesh.tree.birch-1.native-part-1.igmpz",
+        "packet_bytes": 12385234,
+        "packet_sha256": "a4f1c939da1921b686cbc7e2336bd7135a02b75c4a92f8c0d7d66c31f6fe5f34",
+        "decoded_bytes": 23031616,
+        "decoded_sha256": "6ea96fe3a2e82accab82bc048b04f30a9deaec1c37341260821f1cd314cd11ec",
+        "vertices": 266832,
+        "triangles": 502272
+      }
+    ],
+    "vertices": 376242,
+    "triangles": 721088,
     "bounds": {
-      "max": [
-        2.276395559310913,
-        7.440781593322754,
-        2.51518177986145
-      ],
       "min": [
-        -2.452303647994995,
+        -2.452301025390625,
         -0.0005466574802994728,
-        -2.3752944469451904
+        -2.375291585922241
+      ],
+      "max": [
+        2.276397705078125,
+        7.440774440765381,
+        2.515186309814453
       ]
-    }
+    },
+    "source_sha256": "2aa8bf5732f0866fbf12612cd6431714639893de6d28b257c6e3362cdf40bd39"
   },
   "files": [
     {
@@ -81,17 +96,24 @@
     },
     {
       "role": "preview",
-      "media_type": "application/vnd.ignis.mesh-preview+gzip",
-      "bytes": 11071558,
-      "sha256": "c5d6668c866c00a1207a3549f319af3c18219d12fea6d57d27762dbc437d97cd",
-      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/trees-v1.0.0/ignis.mesh.tree.birch-1.igmpz"
-    },
-    {
-      "role": "preview",
       "media_type": "image/jpeg",
       "bytes": 18929,
       "sha256": "f81696af389f522d4d10d660d2a9610ad56613fe35726170451d8e3453677316",
       "path": "assets/meshes/trees/birch-1/thumbnail.jpg"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 5405988,
+      "sha256": "37553c53c8d14d976a3a9f69919b527abee921def4fe8405e797ec0a0348b08a",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/native-previews-v2/ignis.mesh.tree.birch-1.native-part-0.igmpz"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 12385234,
+      "sha256": "a4f1c939da1921b686cbc7e2336bd7135a02b75c4a92f8c0d7d66c31f6fe5f34",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/native-previews-v2/ignis.mesh.tree.birch-1.native-part-1.igmpz"
     }
   ]
 }

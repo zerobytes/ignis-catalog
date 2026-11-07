@@ -86,9 +86,21 @@ def records(root=ROOT):
                 require(all(isinstance(v, (int, float)) and math.isfinite(v) for k in bounds for v in bounds[k]), 'Invalid mesh bounds')
                 require(all(a <= b for a, b in zip(bounds['min'], bounds['max'])), 'Invalid mesh bounds')
             preview = item['native_preview']
-            require(preview['format'] == 'IGMP1+gzip' and preview['quality'] in {'full', 'reduced-tessellation'}, 'Unsupported native mesh preview')
-            require(type(preview['decoded_bytes']) is int and 0 < preview['decoded_bytes'] <= 192 * 1024 * 1024, 'Invalid decoded preview budget')
-            require(re.fullmatch(r'[a-f0-9]{64}', preview['decoded_sha256']), 'Missing decoded preview hash')
+            if preview['format']=='IGMP2+gzip-parts':
+                require(preview['quality']=='full-native' and preview['material_appearance']=='native-materials', 'Native previews must preserve appearance')
+                require(any(f['role']=='source' and f['sha256']==preview.get('source_sha256') for f in item['files']),'Preview must pin its original source archive')
+                require(isinstance(preview['parts'],list) and 0<len(preview['parts'])<=128,'Invalid native parts')
+                for part in preview['parts']:
+                    safe_path(part['file'])
+                    require(re.fullmatch(r'[a-z0-9.-]+\.native-part-\d+\.igmpz',part['file']), 'Invalid native part filename')
+                    require(type(part['decoded_bytes']) is int and 16<part['decoded_bytes']<=768*1024*1024,'Invalid native part budget')
+                    require(type(part['packet_bytes']) is int and 0<part['packet_bytes']<=256*1024*1024,'Invalid native compressed budget')
+                    for key in ['packet_sha256','decoded_sha256']:require(re.fullmatch(r'[a-f0-9]{64}',part[key]),'Invalid native checksum')
+                require(sum(p['triangles'] for p in preview['parts'])==item['mesh']['triangles']==preview['triangles'],'Native triangle counts differ')
+            else:
+                require(preview['format'] == 'IGMP1+gzip' and preview['quality'] in {'full', 'reduced-tessellation'}, 'Unsupported native mesh preview')
+                require(type(preview['decoded_bytes']) is int and 0 < preview['decoded_bytes'] <= 192 * 1024 * 1024, 'Invalid decoded preview budget')
+                require(re.fullmatch(r'[a-f0-9]{64}', preview['decoded_sha256']), 'Missing decoded preview hash')
         files = item['files']
         require(isinstance(files, list) and files, 'Asset has no files')
         require(any(f['role'] == 'source' for f in files), 'Editable source is required')

@@ -50,31 +50,53 @@
     }
   },
   "native_preview": {
-    "format": "IGMP1+gzip",
-    "quality": "reduced-tessellation",
-    "material_appearance": "representative-pbr-colors",
-    "tessellation": {
-      "axis_samples": 8,
-      "blade_samples": 4,
-      "moss_mesh_edge_m": 0.25,
-      "sides": 6
-    },
-    "decoded_bytes": 105662020,
-    "decoded_sha256": "c900dcfb43d6fa9796bd2427a2aad11d90a7f466176b04c17aa28ce0c32a19d5",
-    "vertices": 2291499,
-    "triangles": 4221669,
+    "format": "IGMP2+gzip-parts",
+    "quality": "full-native",
+    "material_appearance": "native-materials",
+    "parts": [
+      {
+        "file": "ignis.mesh.tree.ancestral-white-42.native-part-0.igmpz",
+        "packet_bytes": 113378894,
+        "packet_sha256": "6b9f5e8871c2e9bc0a3b2cb37a3db64e6dd23e82db7cc92f59ca91cafafbef4d",
+        "decoded_bytes": 251472360,
+        "decoded_sha256": "9e81410bd6a878b50636098a70dc7f3661b80a5ca369194d4b94b416052011c6",
+        "vertices": 1138821,
+        "triangles": 1182976
+      },
+      {
+        "file": "ignis.mesh.tree.ancestral-white-42.native-part-1.igmpz",
+        "packet_bytes": 70584901,
+        "packet_sha256": "9224ed59813d4a670ff015d6d872a59313e34d85ed8593fc9bbf71caac310c63",
+        "decoded_bytes": 121215488,
+        "decoded_sha256": "b92cad915e9289ac54cfebde8bbfe700860357be316fe26420de566957e04fd1",
+        "vertices": 1736130,
+        "triangles": 3156600
+      },
+      {
+        "file": "ignis.mesh.tree.ancestral-white-42.native-part-2.igmpz",
+        "packet_bytes": 148123526,
+        "packet_sha256": "efd9fbd1a9eeb44f940d7668eccfe2b0ad582af181533ebcff793ca1200375a9",
+        "decoded_bytes": 276214820,
+        "decoded_sha256": "90b4ffe9d8feedb239b213401c04a7aab7d5622609056be44c09ab5aefee9b90",
+        "vertices": 2935864,
+        "triangles": 5681862
+      }
+    ],
+    "vertices": 5810815,
+    "triangles": 10021438,
     "bounds": {
-      "max": [
-        44.25468826293945,
-        47.06587219238281,
-        41.90625
-      ],
       "min": [
         -45.337501525878906,
         -2.6015625,
-        -38.152862548828125
+        -38.330177307128906
+      ],
+      "max": [
+        44.26874923706055,
+        47.013954162597656,
+        41.90625
       ]
-    }
+    },
+    "source_sha256": "40834284794f126144478335435155bde3edabc41168c3e443768cbe96e1b4a3"
   },
   "files": [
     {
@@ -86,17 +108,31 @@
     },
     {
       "role": "preview",
-      "media_type": "application/vnd.ignis.mesh-preview+gzip",
-      "bytes": 64603081,
-      "sha256": "30c5100eb9c3ffe05c9c94949315825b8be73c382a4b8bfed1c0facae0e537c0",
-      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/ancestral-v1.0.0/ignis.mesh.tree.ancestral-white-42.igmpz"
-    },
-    {
-      "role": "preview",
       "media_type": "image/jpeg",
       "bytes": 21631,
       "sha256": "d8c789668b9c65db467c4a0d4264d323001979c39493c09ee850dd247a38f564",
       "path": "assets/meshes/trees/ancestral-white-42/thumbnail.jpg"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 113378894,
+      "sha256": "6b9f5e8871c2e9bc0a3b2cb37a3db64e6dd23e82db7cc92f59ca91cafafbef4d",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/native-previews-v2/ignis.mesh.tree.ancestral-white-42.native-part-0.igmpz"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 70584901,
+      "sha256": "9224ed59813d4a670ff015d6d872a59313e34d85ed8593fc9bbf71caac310c63",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/native-previews-v2/ignis.mesh.tree.ancestral-white-42.native-part-1.igmpz"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 148123526,
+      "sha256": "efd9fbd1a9eeb44f940d7668eccfe2b0ad582af181533ebcff793ca1200375a9",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/native-previews-v2/ignis.mesh.tree.ancestral-white-42.native-part-2.igmpz"
     }
   ]
 }

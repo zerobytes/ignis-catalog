@@ -50,31 +50,53 @@
     }
   },
   "native_preview": {
-    "format": "IGMP1+gzip",
-    "quality": "reduced-tessellation",
-    "material_appearance": "representative-pbr-colors",
-    "tessellation": {
-      "axis_samples": 8,
-      "blade_samples": 4,
-      "moss_mesh_edge_m": 0.25,
-      "sides": 6
-    },
-    "decoded_bytes": 88957864,
-    "decoded_sha256": "3a16363bdfd2505cb6de893590ca88538551dc1892af92494f4a2d55f1ff9504",
-    "vertices": 1926812,
-    "triangles": 3559032,
+    "format": "IGMP2+gzip-parts",
+    "quality": "full-native",
+    "material_appearance": "native-materials",
+    "parts": [
+      {
+        "file": "ignis.mesh.tree.ancestral-wine.native-part-0.igmpz",
+        "packet_bytes": 100037197,
+        "packet_sha256": "2c46c7cc4c4f362ec978cce6f3824fff3e96672d4e3d2cee0b0f8dedae88e4a8",
+        "decoded_bytes": 222189664,
+        "decoded_sha256": "c827a85eb073ed6909f1d00512e8f7375c15674903a9c2d4dc8188e5ecc2b014",
+        "vertices": 957961,
+        "triangles": 983276
+      },
+      {
+        "file": "ignis.mesh.tree.ancestral-wine.native-part-1.igmpz",
+        "packet_bytes": 57615004,
+        "packet_sha256": "8029e6573ca2124c6c2f475e678ba358bd958ff7d7ad36e136e2dd31b3883422",
+        "decoded_bytes": 98857464,
+        "decoded_sha256": "cef0bd929a6bbd8e4f68b0c24afb71e4c9b6d8fbe1394d3c3e5b352a47c9dda5",
+        "vertices": 1415898,
+        "triangles": 2574360
+      },
+      {
+        "file": "ignis.mesh.tree.ancestral-wine.native-part-2.igmpz",
+        "packet_bytes": 145159611,
+        "packet_sha256": "d7af179699e0908f27700245d2a5cb62f9337fa5cabe649c02ddac04749d542e",
+        "decoded_bytes": 266375672,
+        "decoded_sha256": "c038db1a10317ac3efbd4979b39b177d57ef24258e1982b8f45ae8b32536ae8e",
+        "vertices": 2792086,
+        "triangles": 5437045
+      }
+    ],
+    "vertices": 5165945,
+    "triangles": 8994681,
     "bounds": {
-      "max": [
-        42.693748474121094,
-        48.48615646362305,
-        41.09062576293945
-      ],
       "min": [
         -44.39531326293945,
         -2.629687547683716,
-        -39.26953125
+        -39.27656173706055
+      ],
+      "max": [
+        42.70781326293945,
+        48.50996398925781,
+        41.09062576293945
       ]
-    }
+    },
+    "source_sha256": "b77dbbaa4511ad9b7dff9b7ec0febeeb9f43dd14d3c52e467ee810e7ce0bfa02"
   },
   "files": [
     {
@@ -86,17 +108,31 @@
     },
     {
       "role": "preview",
-      "media_type": "application/vnd.ignis.mesh-preview+gzip",
-      "bytes": 54468983,
-      "sha256": "f42d72ec4b6a1534a6edd151452f86e039825f3d773f4a3be2d49f4b0cc8e38d",
-      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/ancestral-v1.0.0/ignis.mesh.tree.ancestral-wine.igmpz"
-    },
-    {
-      "role": "preview",
       "media_type": "image/jpeg",
       "bytes": 18798,
       "sha256": "87130b468506d25587bb6ad6b87bf4004ae9a3092f18cb1e85e8e63083687d87",
       "path": "assets/meshes/trees/ancestral-wine/thumbnail.jpg"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 100037197,
+      "sha256": "2c46c7cc4c4f362ec978cce6f3824fff3e96672d4e3d2cee0b0f8dedae88e4a8",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/native-previews-v2/ignis.mesh.tree.ancestral-wine.native-part-0.igmpz"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 57615004,
+      "sha256": "8029e6573ca2124c6c2f475e678ba358bd958ff7d7ad36e136e2dd31b3883422",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/native-previews-v2/ignis.mesh.tree.ancestral-wine.native-part-1.igmpz"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 145159611,
+      "sha256": "d7af179699e0908f27700245d2a5cb62f9337fa5cabe649c02ddac04749d542e",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/native-previews-v2/ignis.mesh.tree.ancestral-wine.native-part-2.igmpz"
     }
   ]
 }
