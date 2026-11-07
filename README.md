@@ -4,7 +4,7 @@ A free community asset catalog for [Ignis](https://github.com/zerobytes/ignis).
 [Português](README.pt-BR.md)
 
 Reusable content with editable sources, explicit licenses, attribution and
-versioned integrity metadata. The collection contains **11 editable tree meshes and 20 procedural materials**: 12 marble
+versioned integrity metadata. The collection contains **17 editable tree meshes and 20 procedural materials**: 12 marble
 families, 4 continuous stone families and 4 basic surfaces. Material sources total
 **38,609 bytes**. Tree packages are versioned downloads outside Git. No account, paid backend or Git LFS required.
 
@@ -86,6 +86,25 @@ young/developed leaf sizes. The editable source includes growth-stage and height
 variation controls (default 0.8). Native editing requires botanical recipe/source
 format 9; browser preview and full-resolution GLB remain static presentations.
 The original 1.0.0 package remains pinned in the initial tree release.
+
+
+### Ancestral trees 1.0.0
+
+Six fantasy specimens are available in
+[ancestral-v1.0.0](https://github.com/zerobytes/ignis-catalog/releases/tag/ancestral-v1.0.0):
+the original white tree, two dense white seed variants, and blue-lilac, wine and
+pink crowns. They include interwoven woody cords, broad roots and independent
+world-prepared moss. The native download preserves full geometry and materials,
+the exact editable botanical snapshot and a compact species profile for creating
+additional individuals. World placement and environmental settings are recorded.
+Editing requires botanical recipe 34 / scene 138 support. Growth or structural
+changes need a new explicit moss preparation; gameplay renders the saved meshes.
+
+The GLB and on-demand web preview use representative PBR colors instead of native
+bark/moss textures and border shading. The web preview also reduces tessellation.
+Use the full Ignis scene for the native appearance. These are large, detailed
+source assets; geometry counts and download/preview sizes are shown, without a
+runtime FPS guarantee. [Authoring profile and provenance](recipes/ancestral).
 
 ## Hosting and contribution
 

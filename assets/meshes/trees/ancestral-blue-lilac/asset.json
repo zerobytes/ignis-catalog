@@ -1,0 +1,102 @@
+{
+  "format_version": 1,
+  "id": "ignis.mesh.tree.ancestral-blue-lilac",
+  "version": "1.0.0",
+  "kind": "mesh",
+  "name": "Ancestral tree — Blue-lilac crown",
+  "summary": "Editable ancestral fantasy tree with continuous root/trunk/branch cords and independently prepared moss.",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "license": "CC-BY-4.0",
+  "attribution": "Ancestral tree — Blue-lilac crown by Guilherme Oliveira / Zerobytes — CC BY 4.0 — https://github.com/zerobytes/ignis-catalog",
+  "tags": [
+    "trees",
+    "mesh",
+    "botany",
+    "ancestral",
+    "moss",
+    "ancestral-blue-lilac"
+  ],
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis-catalog",
+    "commit": "6c5076a5faabab570db0d8e164eae7e95c4df588",
+    "path": "recipes/ancestral/authoring.json",
+    "source_sha256": "56cfb776635c8117ce0f951d6741a790459807982036c847f96f71749602c66b",
+    "availability": "versioned-download",
+    "note": "Tracked compact authoring profile and input hashes; complete exact prepared botanical snapshot and native scene included in the release ZIP. No reference images included."
+  },
+  "compatibility": {
+    "engine": "ignis",
+    "botany_recipe_version": 34,
+    "minimum_scene_version": 138,
+    "runtime_validation": "Native source bake, explicit world moss preparation, scene validation and native renderer capture. Static snapshots; no FPS certification."
+  },
+  "mesh": {
+    "vertices": 4804855,
+    "triangles": 9146086,
+    "bounds": {
+      "max": [
+        39.009376525878906,
+        48.14469909667969,
+        38.528682708740234
+      ],
+      "min": [
+        -40.50604248046875,
+        -2.3343749046325684,
+        -38.92499923706055
+      ]
+    }
+  },
+  "native_preview": {
+    "format": "IGMP1+gzip",
+    "quality": "reduced-tessellation",
+    "material_appearance": "representative-pbr-colors",
+    "tessellation": {
+      "axis_samples": 8,
+      "blade_samples": 4,
+      "moss_mesh_edge_m": 0.25,
+      "sides": 6
+    },
+    "decoded_bytes": 102135484,
+    "decoded_sha256": "6750c6bdf54f14b266c1d6827f5871278e84df46801193c84afcc9ea4c81349c",
+    "vertices": 2215362,
+    "triangles": 4080063,
+    "bounds": {
+      "max": [
+        39.009376525878906,
+        48.007328033447266,
+        38.477962493896484
+      ],
+      "min": [
+        -40.43267822265625,
+        -2.3414063453674316,
+        -38.92499923706055
+      ]
+    }
+  },
+  "files": [
+    {
+      "role": "source",
+      "media_type": "application/zip",
+      "bytes": 422287234,
+      "sha256": "a2a445997639f6c9de7fddb880066b276082152eaa28c63e21d2d68e79199366",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/ancestral-v1.0.0/ignis.mesh.tree.ancestral-blue-lilac.zip"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 62431072,
+      "sha256": "f2b1dd91c2e972d73b6efde8bf98afdceacfd8de04287ee2b4f471cbcd2c92ff",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/ancestral-v1.0.0/ignis.mesh.tree.ancestral-blue-lilac.igmpz"
+    },
+    {
+      "role": "preview",
+      "media_type": "image/jpeg",
+      "bytes": 25179,
+      "sha256": "2d3039e8598f24279f2fa22cf9c31929078905d7e6c28c31b31b896b3e24bf9e",
+      "path": "assets/meshes/trees/ancestral-blue-lilac/thumbnail.jpg"
+    }
+  ]
+}

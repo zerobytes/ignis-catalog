@@ -1,0 +1,102 @@
+{
+  "format_version": 1,
+  "id": "ignis.mesh.tree.ancestral-wine",
+  "version": "1.0.0",
+  "kind": "mesh",
+  "name": "Ancestral tree — Wine crown",
+  "summary": "Editable ancestral fantasy tree with continuous root/trunk/branch cords and independently prepared moss.",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "license": "CC-BY-4.0",
+  "attribution": "Ancestral tree — Wine crown by Guilherme Oliveira / Zerobytes — CC BY 4.0 — https://github.com/zerobytes/ignis-catalog",
+  "tags": [
+    "trees",
+    "mesh",
+    "botany",
+    "ancestral",
+    "moss",
+    "ancestral-wine"
+  ],
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis-catalog",
+    "commit": "6c5076a5faabab570db0d8e164eae7e95c4df588",
+    "path": "recipes/ancestral/authoring.json",
+    "source_sha256": "1f10db06b82b81b2af9f0025106ac82ded6c2220a49b28b31878c43499113bf5",
+    "availability": "versioned-download",
+    "note": "Tracked compact authoring profile and input hashes; complete exact prepared botanical snapshot and native scene included in the release ZIP. No reference images included."
+  },
+  "compatibility": {
+    "engine": "ignis",
+    "botany_recipe_version": 34,
+    "minimum_scene_version": 138,
+    "runtime_validation": "Native source bake, explicit world moss preparation, scene validation and native renderer capture. Static snapshots; no FPS certification."
+  },
+  "mesh": {
+    "vertices": 4699600,
+    "triangles": 8994681,
+    "bounds": {
+      "max": [
+        42.70781326293945,
+        48.50996398925781,
+        41.09062576293945
+      ],
+      "min": [
+        -44.39531326293945,
+        -2.629687547683716,
+        -39.27656173706055
+      ]
+    }
+  },
+  "native_preview": {
+    "format": "IGMP1+gzip",
+    "quality": "reduced-tessellation",
+    "material_appearance": "representative-pbr-colors",
+    "tessellation": {
+      "axis_samples": 8,
+      "blade_samples": 4,
+      "moss_mesh_edge_m": 0.25,
+      "sides": 6
+    },
+    "decoded_bytes": 88957864,
+    "decoded_sha256": "3a16363bdfd2505cb6de893590ca88538551dc1892af92494f4a2d55f1ff9504",
+    "vertices": 1926812,
+    "triangles": 3559032,
+    "bounds": {
+      "max": [
+        42.693748474121094,
+        48.48615646362305,
+        41.09062576293945
+      ],
+      "min": [
+        -44.39531326293945,
+        -2.629687547683716,
+        -39.26953125
+      ]
+    }
+  },
+  "files": [
+    {
+      "role": "source",
+      "media_type": "application/zip",
+      "bytes": 410391880,
+      "sha256": "b77dbbaa4511ad9b7dff9b7ec0febeeb9f43dd14d3c52e467ee810e7ce0bfa02",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/ancestral-v1.0.0/ignis.mesh.tree.ancestral-wine.zip"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 54468983,
+      "sha256": "f42d72ec4b6a1534a6edd151452f86e039825f3d773f4a3be2d49f4b0cc8e38d",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/ancestral-v1.0.0/ignis.mesh.tree.ancestral-wine.igmpz"
+    },
+    {
+      "role": "preview",
+      "media_type": "image/jpeg",
+      "bytes": 18798,
+      "sha256": "87130b468506d25587bb6ad6b87bf4004ae9a3092f18cb1e85e8e63083687d87",
+      "path": "assets/meshes/trees/ancestral-wine/thumbnail.jpg"
+    }
+  ]
+}

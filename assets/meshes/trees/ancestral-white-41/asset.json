@@ -1,0 +1,102 @@
+{
+  "format_version": 1,
+  "id": "ignis.mesh.tree.ancestral-white-41",
+  "version": "1.0.0",
+  "kind": "mesh",
+  "name": "Ancestral tree — White crown, individual 41",
+  "summary": "Editable ancestral fantasy tree with continuous root/trunk/branch cords and independently prepared moss.",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "license": "CC-BY-4.0",
+  "attribution": "Ancestral tree — White crown, individual 41 by Guilherme Oliveira / Zerobytes — CC BY 4.0 — https://github.com/zerobytes/ignis-catalog",
+  "tags": [
+    "trees",
+    "mesh",
+    "botany",
+    "ancestral",
+    "moss",
+    "ancestral-white-41"
+  ],
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis-catalog",
+    "commit": "6c5076a5faabab570db0d8e164eae7e95c4df588",
+    "path": "recipes/ancestral/authoring.json",
+    "source_sha256": "b7ce2c7979ebb476dc303fcffbb1d6022f63e0dfdc5dd319a06ec36c743c0a42",
+    "availability": "versioned-download",
+    "note": "Tracked compact authoring profile and input hashes; complete exact prepared botanical snapshot and native scene included in the release ZIP. No reference images included."
+  },
+  "compatibility": {
+    "engine": "ignis",
+    "botany_recipe_version": 34,
+    "minimum_scene_version": 138,
+    "runtime_validation": "Native source bake, explicit world moss preparation, scene validation and native renderer capture. Static snapshots; no FPS certification."
+  },
+  "mesh": {
+    "vertices": 5464115,
+    "triangles": 10336646,
+    "bounds": {
+      "max": [
+        43.790184020996094,
+        53.924373626708984,
+        42.6243782043457
+      ],
+      "min": [
+        -40.04999923706055,
+        -2.28515625,
+        -43.655521392822266
+      ]
+    }
+  },
+  "native_preview": {
+    "format": "IGMP1+gzip",
+    "quality": "reduced-tessellation",
+    "material_appearance": "representative-pbr-colors",
+    "tessellation": {
+      "axis_samples": 8,
+      "blade_samples": 4,
+      "moss_mesh_edge_m": 0.25,
+      "sides": 6
+    },
+    "decoded_bytes": 114638932,
+    "decoded_sha256": "db5173a6c256d747ac9fadcb39a4bf79db9f44c7fc5c8a38975b54cb047a0ec2",
+    "vertices": 2488713,
+    "triangles": 4575316,
+    "bounds": {
+      "max": [
+        43.78910446166992,
+        53.98173904418945,
+        42.60541534423828
+      ],
+      "min": [
+        -40.04999923706055,
+        -2.28515625,
+        -43.61155319213867
+      ]
+    }
+  },
+  "files": [
+    {
+      "role": "source",
+      "media_type": "application/zip",
+      "bytes": 464215276,
+      "sha256": "349939ac134ee68ffad127842b7ff25856a96f4845a793bd17cce6f33e68a208",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/ancestral-v1.0.0/ignis.mesh.tree.ancestral-white-41.zip"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 70131394,
+      "sha256": "01b180f74bdf2f8cb340269a06b4e06f04a33697b8536df4a9eb596b8f274535",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/ancestral-v1.0.0/ignis.mesh.tree.ancestral-white-41.igmpz"
+    },
+    {
+      "role": "preview",
+      "media_type": "image/jpeg",
+      "bytes": 27540,
+      "sha256": "c743bcf90aad8be05964d27e9bc57a2173f085f493ed0b00bb7c64e6b630888c",
+      "path": "assets/meshes/trees/ancestral-white-41/thumbnail.jpg"
+    }
+  ]
+}

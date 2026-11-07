@@ -3,7 +3,7 @@
 Catálogo comunitário gratuito de assets para a [Ignis](https://github.com/zerobytes/ignis).
 [English](README.md)
 
-A coleção tem **11 meshes de árvores e 20 materiais procedurais editáveis**: 12 mármores, 4 rochas e
+A coleção tem **17 meshes de árvores e 20 materiais procedurais editáveis**: 12 mármores, 4 rochas e
 4 superfícies básicas. As receitas somam **38.609 bytes**. Veja os arquivos no
 [índice de materiais](README.md#browse-and-use).
 
@@ -75,3 +75,18 @@ python3 -m unittest discover -s tests -v
 ```
 
 [Contribuir](CONTRIBUTING.md) · [Formato](docs/format.md) · [Licenças](LICENSE)
+
+## Árvores ancestrais 1.0.0
+
+[Seis exemplares](https://github.com/zerobytes/ignis-catalog/releases/tag/ancestral-v1.0.0):
+a branca original, duas brancas por seed e as copas azul-lilás, vinho e rosa.
+Os pacotes incluem a fonte botânica completa, o perfil editável da espécie e a
+cena nativa com raízes, cordões e uma camada independente de musgo preparada
+para o ambiente registrado. Requer suporte a receita botânica 34 / cena 138.
+A cena pronta desenha o musgo sem gerá-lo durante o jogo. Alterações de crescimento
+ou estrutura pedem nova preparação explícita.
+
+O GLB e a prévia web usam cores PBR aproximadas; a cena Ignis preserva as texturas
+e as bordas do musgo. A prévia também reduz tesselação. São fontes detalhadas e
+grandes, com tamanho e contagem de geometria informados, sem promessa de FPS.
+[Receita compacta e procedência](recipes/ancestral). Licença CC BY 4.0.

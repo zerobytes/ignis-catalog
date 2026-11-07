@@ -1,0 +1,102 @@
+{
+  "format_version": 1,
+  "id": "ignis.mesh.tree.ancestral-pink",
+  "version": "1.0.0",
+  "kind": "mesh",
+  "name": "Ancestral tree — Pink crown",
+  "summary": "Editable ancestral fantasy tree with continuous root/trunk/branch cords and independently prepared moss.",
+  "author": {
+    "name": "Guilherme Oliveira / Zerobytes",
+    "url": "https://github.com/zerobytes"
+  },
+  "license": "CC-BY-4.0",
+  "attribution": "Ancestral tree — Pink crown by Guilherme Oliveira / Zerobytes — CC BY 4.0 — https://github.com/zerobytes/ignis-catalog",
+  "tags": [
+    "trees",
+    "mesh",
+    "botany",
+    "ancestral",
+    "moss",
+    "ancestral-pink"
+  ],
+  "provenance": {
+    "repository": "https://github.com/zerobytes/ignis-catalog",
+    "commit": "6c5076a5faabab570db0d8e164eae7e95c4df588",
+    "path": "recipes/ancestral/authoring.json",
+    "source_sha256": "2c6172b9fdb1022a27ccf0c610d3e19eefede6f03d4177f21521e7160e760821",
+    "availability": "versioned-download",
+    "note": "Tracked compact authoring profile and input hashes; complete exact prepared botanical snapshot and native scene included in the release ZIP. No reference images included."
+  },
+  "compatibility": {
+    "engine": "ignis",
+    "botany_recipe_version": 34,
+    "minimum_scene_version": 138,
+    "runtime_validation": "Native source bake, explicit world moss preparation, scene validation and native renderer capture. Static snapshots; no FPS certification."
+  },
+  "mesh": {
+    "vertices": 3470542,
+    "triangles": 6618982,
+    "bounds": {
+      "max": [
+        34.256248474121094,
+        55.951499938964844,
+        38.65791320800781
+      ],
+      "min": [
+        -40.099578857421875,
+        -1.992508053779602,
+        -39.67343521118164
+      ]
+    }
+  },
+  "native_preview": {
+    "format": "IGMP1+gzip",
+    "quality": "reduced-tessellation",
+    "material_appearance": "representative-pbr-colors",
+    "tessellation": {
+      "axis_samples": 8,
+      "blade_samples": 4,
+      "moss_mesh_edge_m": 0.25,
+      "sides": 6
+    },
+    "decoded_bytes": 74710580,
+    "decoded_sha256": "03bb08dbc79007173be071f1c1a614d023f349e0e33f2d165975d4359a5a20b5",
+    "vertices": 1619337,
+    "triangles": 2986706,
+    "bounds": {
+      "max": [
+        34.256248474121094,
+        55.9216194152832,
+        38.37583923339844
+      ],
+      "min": [
+        -40.13241195678711,
+        -1.9932043552398682,
+        -40.02192306518555
+      ]
+    }
+  },
+  "files": [
+    {
+      "role": "source",
+      "media_type": "application/zip",
+      "bytes": 328093352,
+      "sha256": "992a0d8d2e23cd1f98784cd405d90be5917af3fa5b0fb2d633b7e2c2f9d9d99d",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/ancestral-v1.0.0/ignis.mesh.tree.ancestral-pink.zip"
+    },
+    {
+      "role": "preview",
+      "media_type": "application/vnd.ignis.mesh-preview+gzip",
+      "bytes": 45666960,
+      "sha256": "c44584964de0ab937f94a3d5bb8d6ea50567e7d9521d84b3848a837ee1bf3ed3",
+      "url": "https://github.com/zerobytes/ignis-catalog/releases/download/ancestral-v1.0.0/ignis.mesh.tree.ancestral-pink.igmpz"
+    },
+    {
+      "role": "preview",
+      "media_type": "image/jpeg",
+      "bytes": 26303,
+      "sha256": "b820f82a34362264c611628af262474c043a855b072b7742b9bf500715c66691",
+      "path": "assets/meshes/trees/ancestral-pink/thumbnail.jpg"
+    }
+  ]
+}

@@ -78,8 +78,8 @@ def records(root=ROOT):
         require(text(compatibility['runtime_validation']), 'Missing validation scope')
         if item['kind'] == 'mesh':
             for geometry in (item['mesh'], item['native_preview']):
-                require(type(geometry['vertices']) is int and 0 < geometry['vertices'] <= 3_000_000, 'Invalid mesh vertex budget')
-                require(type(geometry['triangles']) is int and 0 < geometry['triangles'] <= 6_000_000, 'Invalid mesh triangle budget')
+                require(type(geometry['vertices']) is int and 0 < geometry['vertices'] <= (2**32 - 1), 'Invalid mesh vertex budget')
+                require(type(geometry['triangles']) is int and 0 < geometry['triangles'] <= (2**32 - 1), 'Invalid mesh triangle budget')
                 bounds = geometry['bounds']
                 require(all(isinstance(bounds[k], list) and len(bounds[k]) == 3 for k in ('min','max')), 'Invalid mesh bounds')
                 import math

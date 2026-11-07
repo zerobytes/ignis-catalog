@@ -46,3 +46,13 @@ containing the editable source, full mesh, materials and a file-level checksum
 list. A remote compressed preview and a small local native-capture thumbnail
 are listed separately. The offline validator verifies local content and shape;
 release/deployment tooling verifies the remote payload bytes.
+
+
+Prepared native coatings can make a full tree exceed the botanical source mesh's
+old 3M-vertex / 6M-triangle envelope. Full and preview count metadata now accepts
+positive u32 counts, matching indexed mesh/GLB representation rather than imposing
+that old source-only cap on the combined tree. This does not raise the browser's
+192 MiB decoded packet guard or relax geometry checks in the native exporter.
+`native_preview.material_appearance = representative-pbr-colors` explicitly marks
+previews whose native textures/attribute domains are approximated. The portal
+must disclose that distinction; the native download retains full appearance.
