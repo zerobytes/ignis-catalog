@@ -84,7 +84,8 @@
         8.63642406463623
       ]
     },
-    "source_sha256": "149b7d38f66ca7fa8b5ecf97d9d4e2dad6f486a4e1ce9b97637374431ca8c2fb"
+    "source_sha256": "149b7d38f66ca7fa8b5ecf97d9d4e2dad6f486a4e1ce9b97637374431ca8c2fb",
+    "shader_sha256": "021c016da051695b9cf1b4ba295788e39e18e29ca841503922e2d7d7c380c2c8"
   },
   "files": [
     {

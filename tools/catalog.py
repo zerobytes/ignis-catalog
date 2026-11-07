@@ -87,6 +87,7 @@ def records(root=ROOT):
                 require(all(a <= b for a, b in zip(bounds['min'], bounds['max'])), 'Invalid mesh bounds')
             preview = item['native_preview']
             if preview['format']=='IGMP2+gzip-parts':
+                require(re.fullmatch(r'[a-f0-9]{64}',preview.get('shader_sha256','')), 'Native shader hash is required')
                 require(preview['quality']=='full-native' and preview['material_appearance']=='native-materials', 'Native previews must preserve appearance')
                 require(any(f['role']=='source' and f['sha256']==preview.get('source_sha256') for f in item['files']),'Preview must pin its original source archive')
                 require(isinstance(preview['parts'],list) and 0<len(preview['parts'])<=128,'Invalid native parts')
