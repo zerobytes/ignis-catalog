@@ -5,7 +5,7 @@
   "engine_repository": "https://github.com/zerobytes/ignis",
   "engine_source_snapshot": "e704c1b",
   "authoring_tool": "scripts/author_catalog_ancestral.py",
-  "authoring_tool_sha256": "21eb4adda7697b85c7836c0e41e6d529ff7c4fb31c876a973f6b7ce646e933c5",
+  "authoring_tool_sha256": "2551c4d5051e24fa2c68389e6c6b2e66a96941607d2f9d13c820228f09bca6f0",
   "placement": {
     "position": [
       0,
