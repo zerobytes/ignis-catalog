@@ -1,0 +1,1988 @@
+{
+  "version": 2,
+  "id": "ancestral_cables",
+  "name": "Ancestral de cord\u00f5es \u00b7 copa ampla",
+  "rules": [
+    {
+      "id": "stem",
+      "parent": null,
+      "count": {
+        "min": 1,
+        "max": 1
+      },
+      "insertion": {
+        "min": 0,
+        "max": 0
+      },
+      "length_m": {
+        "min": 5.5,
+        "max": 8
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": null,
+      "inclination_radians": {
+        "min": 0,
+        "max": 0.2
+      },
+      "azimuth_step": 2.3999632297,
+      "azimuth_jitter": 0.6,
+      "insertion_jitter": 0.8,
+      "curvature": 0.4,
+      "torsion": 0.1,
+      "tropism": 0.2,
+      "shape": {
+        "kind": "axis",
+        "radius": 7.4,
+        "tip_ratio": 0.2,
+        "ellipticity": 1.0
+      },
+      "connection": "graft",
+      "taper_power": 1.1,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 0
+      },
+      "expansion_years": 2,
+      "role": "axis",
+      "rest_curve": {
+        "field": {
+          "base": [
+            0.012,
+            0.006
+          ],
+          "tip": [
+            -0.009,
+            0.007
+          ],
+          "twist": 0.008,
+          "sag": 0,
+          "tropism": 0,
+          "irregularity": 0.003,
+          "frequency": 1.1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 1.2
+        },
+        "mirror_binormal": true
+      }
+    },
+    {
+      "id": "primary",
+      "parent": "stem",
+      "count": {
+        "min": 8,
+        "max": 12
+      },
+      "insertion": {
+        "min": 0.22,
+        "max": 0.78
+      },
+      "length_m": {
+        "min": 15,
+        "max": 21
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": {
+        "min": 0.28,
+        "max": 0.4
+      },
+      "inclination_radians": {
+        "min": 1.12,
+        "max": 1.65
+      },
+      "azimuth_step": 2.3999632297,
+      "azimuth_jitter": 0.6,
+      "insertion_jitter": 0.8,
+      "curvature": 0.15,
+      "torsion": 0.06,
+      "tropism": 0.02,
+      "shape": {
+        "kind": "axis",
+        "radius": 0.1,
+        "tip_ratio": 0.62,
+        "ellipticity": 1.0
+      },
+      "connection": "graft",
+      "taper_power": 0.8,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis",
+      "rest_curve": {
+        "field": {
+          "base": [
+            0.008,
+            0.035
+          ],
+          "tip": [
+            0.012,
+            0.025
+          ],
+          "twist": 0.008,
+          "sag": 0,
+          "tropism": 0.004,
+          "irregularity": 0.012,
+          "frequency": 1.1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 1.2
+        },
+        "mirror_binormal": true
+      },
+      "upright_inclination_radians": {
+        "min": 1.3,
+        "max": 1.55
+      }
+    },
+    {
+      "id": "framework",
+      "parent": "primary",
+      "count": {
+        "min": 2,
+        "max": 2
+      },
+      "insertion": {
+        "min": 1,
+        "max": 1
+      },
+      "length_m": {
+        "min": 8,
+        "max": 13
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": {
+        "min": 0.62,
+        "max": 0.72
+      },
+      "inclination_radians": {
+        "min": 0.55,
+        "max": 1.1
+      },
+      "azimuth_step": 3.141592653589793,
+      "azimuth_jitter": 0.25,
+      "insertion_jitter": 0,
+      "curvature": 0.15,
+      "torsion": 0.06,
+      "tropism": 0.08,
+      "shape": {
+        "kind": "axis",
+        "radius": 0.1,
+        "tip_ratio": 0.62,
+        "ellipticity": 1.0
+      },
+      "connection": "fork",
+      "taper_power": 0.8,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis",
+      "rest_curve": {
+        "field": {
+          "base": [
+            -0.015,
+            0.07
+          ],
+          "tip": [
+            0.04,
+            0.04
+          ],
+          "twist": 0.008,
+          "sag": 0,
+          "tropism": 0.01,
+          "irregularity": 0.015,
+          "frequency": 1.1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 1.2
+        },
+        "mirror_binormal": true
+      },
+      "upright_inclination_radians": {
+        "min": 1.15,
+        "max": 1.6
+      },
+      "azimuth_phase": {
+        "min": 1.15,
+        "max": 1.99
+      }
+    },
+    {
+      "id": "secondary",
+      "parent": "framework",
+      "count": {
+        "min": 2,
+        "max": 2
+      },
+      "insertion": {
+        "min": 1,
+        "max": 1
+      },
+      "length_m": {
+        "min": 6,
+        "max": 8
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": {
+        "min": 0.45,
+        "max": 0.55
+      },
+      "inclination_radians": {
+        "min": 0.55,
+        "max": 1.1
+      },
+      "azimuth_step": 3.141592653589793,
+      "azimuth_jitter": 0.25,
+      "insertion_jitter": 0,
+      "curvature": 0.15,
+      "torsion": 0.06,
+      "tropism": 0.08,
+      "shape": {
+        "kind": "axis",
+        "radius": 0.1,
+        "tip_ratio": 0.6,
+        "ellipticity": 1.0
+      },
+      "connection": "fork",
+      "taper_power": 0.8,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis",
+      "rest_curve": {
+        "field": {
+          "base": [
+            0.04,
+            0.095
+          ],
+          "tip": [
+            -0.03,
+            0.055
+          ],
+          "twist": 0.008,
+          "sag": 0,
+          "tropism": 0.035,
+          "irregularity": 0.015,
+          "frequency": 1.1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 1.2
+        },
+        "mirror_binormal": true
+      },
+      "upright_inclination_radians": {
+        "min": 1.05,
+        "max": 1.7
+      },
+      "azimuth_phase": {
+        "min": 1.15,
+        "max": 1.99
+      }
+    },
+    {
+      "id": "shoot",
+      "parent": "secondary",
+      "count": {
+        "min": 2,
+        "max": 2
+      },
+      "insertion": {
+        "min": 1,
+        "max": 1
+      },
+      "length_m": {
+        "min": 3,
+        "max": 5
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": {
+        "min": 0.55,
+        "max": 0.65
+      },
+      "inclination_radians": {
+        "min": 0.55,
+        "max": 1.1
+      },
+      "azimuth_step": 3.141592653589793,
+      "azimuth_jitter": 0.25,
+      "insertion_jitter": 0,
+      "curvature": 0.15,
+      "torsion": 0.06,
+      "tropism": 0.08,
+      "shape": {
+        "kind": "axis",
+        "radius": 0.1,
+        "tip_ratio": 0.5,
+        "ellipticity": 1.0
+      },
+      "connection": "fork",
+      "taper_power": 0.8,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis",
+      "rest_curve": {
+        "field": {
+          "base": [
+            0.04,
+            0.095
+          ],
+          "tip": [
+            -0.03,
+            0.055
+          ],
+          "twist": 0.008,
+          "sag": 0,
+          "tropism": 0.035,
+          "irregularity": 0.015,
+          "frequency": 1.1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 1.2
+        },
+        "mirror_binormal": true
+      },
+      "upright_inclination_radians": {
+        "min": 0.85,
+        "max": 1.8
+      },
+      "azimuth_phase": {
+        "min": 1.15,
+        "max": 1.99
+      }
+    },
+    {
+      "id": "twig",
+      "parent": "shoot",
+      "count": {
+        "min": 2,
+        "max": 2
+      },
+      "insertion": {
+        "min": 1,
+        "max": 1
+      },
+      "length_m": {
+        "min": 1,
+        "max": 2
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": {
+        "min": 0.62,
+        "max": 0.72
+      },
+      "inclination_radians": {
+        "min": 0.55,
+        "max": 1.1
+      },
+      "azimuth_step": 3.141592653589793,
+      "azimuth_jitter": 0.25,
+      "insertion_jitter": 0,
+      "curvature": 0.15,
+      "torsion": 0.06,
+      "tropism": 0.08,
+      "shape": {
+        "kind": "axis",
+        "radius": 0.1,
+        "tip_ratio": 0.5,
+        "ellipticity": 1.0
+      },
+      "connection": "fork",
+      "taper_power": 0.8,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis",
+      "rest_curve": {
+        "field": {
+          "base": [
+            0.04,
+            0.095
+          ],
+          "tip": [
+            -0.03,
+            0.055
+          ],
+          "twist": 0.008,
+          "sag": 0,
+          "tropism": 0.035,
+          "irregularity": 0.015,
+          "frequency": 1.1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 1.2
+        },
+        "mirror_binormal": true
+      },
+      "upright_inclination_radians": {
+        "min": 0.9,
+        "max": 2.0
+      },
+      "azimuth_phase": {
+        "min": 1.15,
+        "max": 1.99
+      }
+    },
+    {
+      "id": "inner_leaf",
+      "parent": "secondary",
+      "count": {
+        "min": 35,
+        "max": 49
+      },
+      "insertion": {
+        "min": 0.1,
+        "max": 1.0
+      },
+      "length_m": {
+        "min": 0.7,
+        "max": 1.15
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": null,
+      "inclination_radians": {
+        "min": 0.6,
+        "max": 1.6
+      },
+      "azimuth_step": 2.3999632297,
+      "azimuth_jitter": 0.6,
+      "insertion_jitter": 0.8,
+      "curvature": 0.4,
+      "torsion": 0.1,
+      "tropism": 0.2,
+      "shape": {
+        "kind": "blade",
+        "width": 0.55,
+        "thickness": 0.0003,
+        "fold": 0.1,
+        "cup": 0.06,
+        "outline": {
+          "kind": "strip",
+          "base_power": 0.6,
+          "tip_power": 0.4
+        }
+      },
+      "connection": "graft",
+      "taper_power": 1.1,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis"
+    },
+    {
+      "id": "mid_leaf",
+      "parent": "shoot",
+      "count": {
+        "min": 49,
+        "max": 63
+      },
+      "insertion": {
+        "min": 0.1,
+        "max": 1.0
+      },
+      "length_m": {
+        "min": 0.7,
+        "max": 1.15
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": null,
+      "inclination_radians": {
+        "min": 0.6,
+        "max": 1.6
+      },
+      "azimuth_step": 2.3999632297,
+      "azimuth_jitter": 0.6,
+      "insertion_jitter": 0.8,
+      "curvature": 0.4,
+      "torsion": 0.1,
+      "tropism": 0.2,
+      "shape": {
+        "kind": "blade",
+        "width": 0.55,
+        "thickness": 0.0003,
+        "fold": 0.1,
+        "cup": 0.06,
+        "outline": {
+          "kind": "strip",
+          "base_power": 0.6,
+          "tip_power": 0.4
+        }
+      },
+      "connection": "graft",
+      "taper_power": 1.1,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis"
+    },
+    {
+      "id": "leaf",
+      "parent": "twig",
+      "count": {
+        "min": 28,
+        "max": 39
+      },
+      "insertion": {
+        "min": 0.1,
+        "max": 1.0
+      },
+      "length_m": {
+        "min": 0.7,
+        "max": 1.15
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": null,
+      "inclination_radians": {
+        "min": 0.6,
+        "max": 1.6
+      },
+      "azimuth_step": 2.3999632297,
+      "azimuth_jitter": 0.6,
+      "insertion_jitter": 0.8,
+      "curvature": 0.4,
+      "torsion": 0.1,
+      "tropism": 0.2,
+      "shape": {
+        "kind": "blade",
+        "width": 0.55,
+        "thickness": 0.0003,
+        "fold": 0.1,
+        "cup": 0.06,
+        "outline": {
+          "kind": "strip",
+          "base_power": 0.6,
+          "tip_power": 0.4
+        }
+      },
+      "connection": "graft",
+      "taper_power": 1.1,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis"
+    },
+    {
+      "id": "lateral_secondary",
+      "parent": "secondary",
+      "count": {
+        "min": 2,
+        "max": 2
+      },
+      "insertion": {
+        "min": 0.16,
+        "max": 0.84
+      },
+      "length_m": {
+        "min": 1.8,
+        "max": 3.2
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": {
+        "min": 0.16,
+        "max": 0.25
+      },
+      "inclination_radians": {
+        "min": 0.85,
+        "max": 1.5
+      },
+      "azimuth_step": 2.3999632297,
+      "azimuth_jitter": 0.55,
+      "insertion_jitter": 0.45,
+      "curvature": 0.15,
+      "torsion": 0.06,
+      "tropism": 0.08,
+      "shape": {
+        "kind": "axis",
+        "radius": 0.1,
+        "tip_ratio": 0.5,
+        "ellipticity": 1.0
+      },
+      "connection": "graft",
+      "taper_power": 0.8,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis",
+      "rest_curve": {
+        "field": {
+          "base": [
+            0.08,
+            0.07
+          ],
+          "tip": [
+            -0.06,
+            0.04
+          ],
+          "twist": 0.008,
+          "sag": 0,
+          "tropism": 0.02,
+          "irregularity": 0.015,
+          "frequency": 1.1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 1.2
+        },
+        "mirror_binormal": true
+      }
+    },
+    {
+      "id": "leaves_secondary",
+      "parent": "lateral_secondary",
+      "count": {
+        "min": 32,
+        "max": 42
+      },
+      "insertion": {
+        "min": 0.08,
+        "max": 1.0
+      },
+      "length_m": {
+        "min": 0.7,
+        "max": 1.15
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": null,
+      "inclination_radians": {
+        "min": 0.6,
+        "max": 1.6
+      },
+      "azimuth_step": 2.3999632297,
+      "azimuth_jitter": 0.6,
+      "insertion_jitter": 0.8,
+      "curvature": 0.4,
+      "torsion": 0.1,
+      "tropism": 0.2,
+      "shape": {
+        "kind": "blade",
+        "width": 0.55,
+        "thickness": 0.0003,
+        "fold": 0.1,
+        "cup": 0.06,
+        "outline": {
+          "kind": "strip",
+          "base_power": 0.6,
+          "tip_power": 0.4
+        }
+      },
+      "connection": "graft",
+      "taper_power": 1.1,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis"
+    },
+    {
+      "id": "lateral_shoot",
+      "parent": "shoot",
+      "count": {
+        "min": 3,
+        "max": 3
+      },
+      "insertion": {
+        "min": 0.16,
+        "max": 0.84
+      },
+      "length_m": {
+        "min": 0.9,
+        "max": 1.7
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": {
+        "min": 0.16,
+        "max": 0.25
+      },
+      "inclination_radians": {
+        "min": 0.85,
+        "max": 1.5
+      },
+      "azimuth_step": 2.3999632297,
+      "azimuth_jitter": 0.55,
+      "insertion_jitter": 0.45,
+      "curvature": 0.15,
+      "torsion": 0.06,
+      "tropism": 0.08,
+      "shape": {
+        "kind": "axis",
+        "radius": 0.1,
+        "tip_ratio": 0.5,
+        "ellipticity": 1.0
+      },
+      "connection": "graft",
+      "taper_power": 0.8,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis",
+      "rest_curve": {
+        "field": {
+          "base": [
+            0.08,
+            0.07
+          ],
+          "tip": [
+            -0.06,
+            0.04
+          ],
+          "twist": 0.008,
+          "sag": 0,
+          "tropism": 0.02,
+          "irregularity": 0.015,
+          "frequency": 1.1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 1.2
+        },
+        "mirror_binormal": true
+      }
+    },
+    {
+      "id": "leaves_shoot",
+      "parent": "lateral_shoot",
+      "count": {
+        "min": 28,
+        "max": 39
+      },
+      "insertion": {
+        "min": 0.08,
+        "max": 1.0
+      },
+      "length_m": {
+        "min": 0.7,
+        "max": 1.15
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": null,
+      "inclination_radians": {
+        "min": 0.6,
+        "max": 1.6
+      },
+      "azimuth_step": 2.3999632297,
+      "azimuth_jitter": 0.6,
+      "insertion_jitter": 0.8,
+      "curvature": 0.4,
+      "torsion": 0.1,
+      "tropism": 0.2,
+      "shape": {
+        "kind": "blade",
+        "width": 0.55,
+        "thickness": 0.0003,
+        "fold": 0.1,
+        "cup": 0.06,
+        "outline": {
+          "kind": "strip",
+          "base_power": 0.6,
+          "tip_power": 0.4
+        }
+      },
+      "connection": "graft",
+      "taper_power": 1.1,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis"
+    },
+    {
+      "id": "fine_twig",
+      "parent": "twig",
+      "count": {
+        "min": 2,
+        "max": 2
+      },
+      "insertion": {
+        "min": 1,
+        "max": 1
+      },
+      "length_m": {
+        "min": 1.2,
+        "max": 2.5
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": {
+        "min": 0.62,
+        "max": 0.72
+      },
+      "inclination_radians": {
+        "min": 0.65,
+        "max": 1.05
+      },
+      "azimuth_step": 3.141592653589793,
+      "azimuth_jitter": 0.25,
+      "insertion_jitter": 0,
+      "curvature": 0.15,
+      "torsion": 0.06,
+      "tropism": 0.08,
+      "shape": {
+        "kind": "axis",
+        "radius": 0.1,
+        "tip_ratio": 0.16,
+        "ellipticity": 1.0
+      },
+      "connection": "fork",
+      "taper_power": 0.8,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis",
+      "rest_curve": {
+        "field": {
+          "base": [
+            0.06,
+            0.1
+          ],
+          "tip": [
+            -0.04,
+            0.045
+          ],
+          "twist": 0.008,
+          "sag": 0,
+          "tropism": 0.015,
+          "irregularity": 0.015,
+          "frequency": 1.1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 1.2
+        },
+        "mirror_binormal": true
+      },
+      "azimuth_phase": {
+        "min": 1.25,
+        "max": 1.9
+      }
+    },
+    {
+      "id": "fine_twig_leaves",
+      "parent": "fine_twig",
+      "count": {
+        "min": 42,
+        "max": 58
+      },
+      "insertion": {
+        "min": 0.1,
+        "max": 1.0
+      },
+      "length_m": {
+        "min": 0.7,
+        "max": 1.15
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": null,
+      "inclination_radians": {
+        "min": 0.6,
+        "max": 1.6
+      },
+      "azimuth_step": 2.3999632297,
+      "azimuth_jitter": 0.6,
+      "insertion_jitter": 0.8,
+      "curvature": 0.4,
+      "torsion": 0.1,
+      "tropism": 0.2,
+      "shape": {
+        "kind": "blade",
+        "width": 0.55,
+        "thickness": 0.0003,
+        "fold": 0.1,
+        "cup": 0.06,
+        "outline": {
+          "kind": "strip",
+          "base_power": 0.6,
+          "tip_power": 0.4
+        }
+      },
+      "connection": "graft",
+      "taper_power": 1.1,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis"
+    },
+    {
+      "id": "fine_secondary",
+      "parent": "lateral_secondary",
+      "count": {
+        "min": 2,
+        "max": 2
+      },
+      "insertion": {
+        "min": 1,
+        "max": 1
+      },
+      "length_m": {
+        "min": 1.3,
+        "max": 2.4
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": {
+        "min": 0.62,
+        "max": 0.72
+      },
+      "inclination_radians": {
+        "min": 0.65,
+        "max": 1.05
+      },
+      "azimuth_step": 3.141592653589793,
+      "azimuth_jitter": 0.25,
+      "insertion_jitter": 0,
+      "curvature": 0.15,
+      "torsion": 0.06,
+      "tropism": 0.08,
+      "shape": {
+        "kind": "axis",
+        "radius": 0.1,
+        "tip_ratio": 0.5,
+        "ellipticity": 1.0
+      },
+      "connection": "fork",
+      "taper_power": 0.8,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis",
+      "rest_curve": {
+        "field": {
+          "base": [
+            0.06,
+            0.1
+          ],
+          "tip": [
+            -0.04,
+            0.045
+          ],
+          "twist": 0.008,
+          "sag": 0,
+          "tropism": 0.015,
+          "irregularity": 0.015,
+          "frequency": 1.1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 1.2
+        },
+        "mirror_binormal": true
+      },
+      "azimuth_phase": {
+        "min": 1.25,
+        "max": 1.9
+      }
+    },
+    {
+      "id": "fine_secondary_leaves",
+      "parent": "fine_secondary",
+      "count": {
+        "min": 48,
+        "max": 63
+      },
+      "insertion": {
+        "min": 0.08,
+        "max": 1.0
+      },
+      "length_m": {
+        "min": 0.7,
+        "max": 1.15
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": null,
+      "inclination_radians": {
+        "min": 0.6,
+        "max": 1.6
+      },
+      "azimuth_step": 2.3999632297,
+      "azimuth_jitter": 0.6,
+      "insertion_jitter": 0.8,
+      "curvature": 0.4,
+      "torsion": 0.1,
+      "tropism": 0.2,
+      "shape": {
+        "kind": "blade",
+        "width": 0.55,
+        "thickness": 0.0003,
+        "fold": 0.1,
+        "cup": 0.06,
+        "outline": {
+          "kind": "strip",
+          "base_power": 0.6,
+          "tip_power": 0.4
+        }
+      },
+      "connection": "graft",
+      "taper_power": 1.1,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis"
+    },
+    {
+      "id": "fine_shoot",
+      "parent": "lateral_shoot",
+      "count": {
+        "min": 2,
+        "max": 2
+      },
+      "insertion": {
+        "min": 1,
+        "max": 1
+      },
+      "length_m": {
+        "min": 0.9,
+        "max": 1.8
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": {
+        "min": 0.62,
+        "max": 0.72
+      },
+      "inclination_radians": {
+        "min": 0.65,
+        "max": 1.05
+      },
+      "azimuth_step": 3.141592653589793,
+      "azimuth_jitter": 0.25,
+      "insertion_jitter": 0,
+      "curvature": 0.15,
+      "torsion": 0.06,
+      "tropism": 0.08,
+      "shape": {
+        "kind": "axis",
+        "radius": 0.1,
+        "tip_ratio": 0.5,
+        "ellipticity": 1.0
+      },
+      "connection": "fork",
+      "taper_power": 0.8,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis",
+      "rest_curve": {
+        "field": {
+          "base": [
+            0.06,
+            0.1
+          ],
+          "tip": [
+            -0.04,
+            0.045
+          ],
+          "twist": 0.008,
+          "sag": 0,
+          "tropism": 0.015,
+          "irregularity": 0.015,
+          "frequency": 1.1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 1.2
+        },
+        "mirror_binormal": true
+      },
+      "azimuth_phase": {
+        "min": 1.25,
+        "max": 1.9
+      }
+    },
+    {
+      "id": "fine_shoot_leaves",
+      "parent": "fine_shoot",
+      "count": {
+        "min": 42,
+        "max": 58
+      },
+      "insertion": {
+        "min": 0.08,
+        "max": 1.0
+      },
+      "length_m": {
+        "min": 0.7,
+        "max": 1.15
+      },
+      "size": {
+        "min": 0.9,
+        "max": 1.1
+      },
+      "parent_radius_ratio": null,
+      "inclination_radians": {
+        "min": 0.6,
+        "max": 1.6
+      },
+      "azimuth_step": 2.3999632297,
+      "azimuth_jitter": 0.6,
+      "insertion_jitter": 0.8,
+      "curvature": 0.4,
+      "torsion": 0.1,
+      "tropism": 0.2,
+      "shape": {
+        "kind": "blade",
+        "width": 0.55,
+        "thickness": 0.0003,
+        "fold": 0.1,
+        "cup": 0.06,
+        "outline": {
+          "kind": "strip",
+          "base_power": 0.6,
+          "tip_power": 0.4
+        }
+      },
+      "connection": "graft",
+      "taper_power": 1.1,
+      "density": 650,
+      "young": 3000000000.0,
+      "shear": 660000000.0,
+      "born_years": {
+        "min": 0,
+        "max": 1.5
+      },
+      "expansion_years": 2,
+      "role": "axis"
+    }
+  ],
+  "roots": [
+    {
+      "stem_rule": "stem",
+      "settings": {
+        "kind": "radial",
+        "count": 12,
+        "seed": 321,
+        "spread": 4.6,
+        "depth": 0.18,
+        "radius_ratio": 0.16,
+        "neck_height": 0.5,
+        "exposure": 1.0,
+        "soil_height": 0.06,
+        "soil_slope": [
+          0.0,
+          0.0
+        ],
+        "orders": 2,
+        "length_ratio": 0.58,
+        "branch_angle": 0.62,
+        "irregularity": 0.26,
+        "anchored_fraction": 0.3
+      }
+    }
+  ],
+  "development": {
+    "model": "woody",
+    "reference_age_years": 180.0,
+    "height_time_years": 30.0,
+    "crown_time_years": 40.0,
+    "radial_time_years": 70.0,
+    "palm_establishment_years": 4.0,
+    "branch_thickening_decay": 0.8,
+    "branch_length_decay": 0.85,
+    "leaf_maturity_years": 4.0,
+    "senescence_start_years": 180.0,
+    "senescence_time_years": 45.0,
+    "senescent_foliage_loss": 0.0,
+    "basal_flare": 0.0,
+    "bark_gain": 1.5,
+    "stiffness_gain": 0.5,
+    "emergence_fraction": 0.65
+  },
+  "settings": {
+    "moss_layer": {
+      "coverage": 0.3,
+      "seed": 38491,
+      "patch_size_m": 2.4,
+      "fragmentation": 0.45,
+      "thickness_m": 0.1,
+      "edge_width_m": 0.0875,
+      "edge_darkening": 0.4,
+      "textured": true,
+      "resolution": 1024,
+      "material": {
+        "anti_tiling": {
+          "seed": 72139,
+          "blend_power": 4.0,
+          "rotate": true
+        },
+        "mapping": {
+          "kind": "triplanar"
+        },
+        "seed": 1,
+        "unique_instances": false,
+        "plane": "xz",
+        "tile_size": [
+          1.0,
+          1.0
+        ],
+        "base": {
+          "color_roughness": [
+            0.014,
+            0.022,
+            0.004,
+            0.97
+          ],
+          "response": [
+            0.0,
+            0.1,
+            1.0,
+            0.5
+          ],
+          "emission": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "layers": [
+          {
+            "field": "noise",
+            "frequency": [
+              5,
+              5
+            ],
+            "seed": 0,
+            "octaves": 3,
+            "warp": 0.2,
+            "threshold": [
+              0.2,
+              0.8
+            ],
+            "strength": 1.0,
+            "invert": false,
+            "target": {
+              "color_roughness": [
+                0.035,
+                0.06,
+                0.008,
+                0.92
+              ],
+              "response": [
+                0.0,
+                0.35,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "field": "moss",
+            "frequency": [
+              96,
+              96
+            ],
+            "seed": 0,
+            "octaves": 1,
+            "warp": 0.08,
+            "threshold": [
+              0.03,
+              0.7
+            ],
+            "strength": 1.0,
+            "invert": false,
+            "target": {
+              "color_roughness": [
+                0.12,
+                0.2,
+                0.025,
+                0.88
+              ],
+              "response": [
+                0.0,
+                0.9,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "field": "moss",
+            "frequency": [
+              160,
+              160
+            ],
+            "seed": 1723,
+            "octaves": 1,
+            "warp": 0.06,
+            "threshold": [
+              0.1,
+              0.8
+            ],
+            "strength": 0.65,
+            "invert": false,
+            "target": {
+              "color_roughness": [
+                0.18,
+                0.25,
+                0.038,
+                0.91
+              ],
+              "response": [
+                0.0,
+                0.95,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "field": "noise",
+            "frequency": [
+              18,
+              18
+            ],
+            "seed": 431,
+            "octaves": 3,
+            "warp": 0.0,
+            "threshold": [
+              0.25,
+              0.75
+            ],
+            "strength": 0.18,
+            "invert": false,
+            "target": {
+              "color_roughness": [
+                0.025,
+                0.05,
+                0.008,
+                0.98
+              ],
+              "response": [
+                0.0,
+                0.3,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        ],
+        "height_m": 0.002,
+        "relief": "bump",
+        "view_steps": 16,
+        "shadow_steps": 8
+      },
+      "relief": {
+        "scale_m": 0.17,
+        "strength": 0.8,
+        "mesh_edge_m": 0.075,
+        "size_variation": 0.35,
+        "height_variation": 0.25,
+        "fullness": 1.1
+      },
+      "habitat": {
+        "strength": 0.9,
+        "humidity": 0.4,
+        "rainfall": 0.65,
+        "sun_exposure": 0.85,
+        "sun_direction": [
+          0.85,
+          0.5,
+          0.3
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "ground_height_m": 0,
+        "base_moisture": 0.9,
+        "base_falloff_m": 3,
+        "wind_exposure": 0.25,
+        "retention": 0.8,
+        "retention_scale_m": 0.25,
+        "shade_preference": 0.85,
+        "moisture_requirement": 0.6,
+        "ambient_light": 0.25,
+        "minimum_light": 0.35,
+        "self_shading": true,
+        "foliage_opacity": 0.75
+      }
+    },
+    "cable_network": {
+      "stem": "trunk",
+      "seed": 419,
+      "cord_radius": 0.2,
+      "spread": 0.8,
+      "inner_fraction": 0.33,
+      "inner_spread": 0.44,
+      "weave_turns": 0.22,
+      "tissue": 0.1,
+      "swelling": 0.0,
+      "root_warp": 0.75,
+      "wavelength_m": 9.0,
+      "root_flattening": 0.7,
+      "root_fluting": 0.16,
+      "cord_fluting": 0.08,
+      "root_sink": 0.3,
+      "min_crown_radius": 0.004,
+      "split_events": 1,
+      "split_gap": 0.7,
+      "split_span": 0.2,
+      "split_fraction": 0.5,
+      "stem_steps": 18,
+      "samples_per_edge": 10,
+      "cell_m": 0.45,
+      "error_m": 0.002,
+      "analytic_crown": true
+    },
+    "surface": {
+      "material": {
+        "seed": 58391,
+        "unique_instances": false,
+        "plane": "xy",
+        "tile_size": [
+          2.0,
+          5.0
+        ],
+        "base": {
+          "color_roughness": [
+            0.48,
+            0.43,
+            0.35,
+            0.95
+          ],
+          "response": [
+            0.0,
+            0.72,
+            1.0,
+            1.0
+          ],
+          "emission": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "layers": [
+          {
+            "field": "noise",
+            "frequency": [
+              7,
+              9
+            ],
+            "seed": 19,
+            "octaves": 3,
+            "warp": 0.04,
+            "threshold": [
+              0.35,
+              0.75
+            ],
+            "strength": 0.65,
+            "invert": false,
+            "target": {
+              "color_roughness": [
+                0.26,
+                0.24,
+                0.2,
+                0.97
+              ],
+              "response": [
+                0.0,
+                0.55,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "field": "ridged",
+            "frequency": [
+              28,
+              10
+            ],
+            "seed": 31,
+            "octaves": 2,
+            "warp": 0.04,
+            "threshold": [
+              0.45,
+              0.85
+            ],
+            "strength": 0.65,
+            "invert": false,
+            "target": {
+              "color_roughness": [
+                0.62,
+                0.58,
+                0.5,
+                0.89
+              ],
+              "response": [
+                0.0,
+                0.88,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "field": "noise",
+            "frequency": [
+              64,
+              48
+            ],
+            "seed": 5,
+            "octaves": 3,
+            "warp": 0.05,
+            "threshold": [
+              0.57,
+              0.8
+            ],
+            "strength": 0.38,
+            "invert": false,
+            "target": {
+              "color_roughness": [
+                0.58,
+                0.55,
+                0.47,
+                0.94
+              ],
+              "response": [
+                0.0,
+                0.75,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "field": "cells",
+            "frequency": [
+              22,
+              4
+            ],
+            "seed": 73,
+            "octaves": 1,
+            "warp": 0.03,
+            "warp_frequency": [
+              30,
+              24
+            ],
+            "threshold": [
+              0.08,
+              0.85
+            ],
+            "strength": 0.92,
+            "invert": true,
+            "target": {
+              "color_roughness": [
+                0.12,
+                0.1,
+                0.075,
+                0.99
+              ],
+              "response": [
+                0.0,
+                0.02,
+                1.0,
+                0.45
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "field": "cells",
+            "frequency": [
+              44,
+              9
+            ],
+            "seed": 81,
+            "octaves": 1,
+            "warp": 0.025,
+            "warp_frequency": [
+              48,
+              40
+            ],
+            "threshold": [
+              0.05,
+              0.6
+            ],
+            "strength": 0.45,
+            "invert": true,
+            "target": {
+              "color_roughness": [
+                0.24,
+                0.22,
+                0.17,
+                0.97
+              ],
+              "response": [
+                0.0,
+                0.22,
+                1.0,
+                0.8
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "field": "noise",
+            "frequency": [
+              48,
+              32
+            ],
+            "seed": 92,
+            "octaves": 4,
+            "warp": 0.04,
+            "threshold": [
+              0.48,
+              0.73
+            ],
+            "strength": 0.35,
+            "invert": false,
+            "target": {
+              "color_roughness": [
+                0.62,
+                0.6,
+                0.52,
+                0.94
+              ],
+              "response": [
+                0.0,
+                0.76,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "field": "noise",
+            "frequency": [
+              6,
+              9
+            ],
+            "seed": 204,
+            "octaves": 4,
+            "warp": 0.07,
+            "warp_frequency": [
+              16,
+              24
+            ],
+            "threshold": [
+              0.53,
+              0.71
+            ],
+            "strength": 0.15,
+            "invert": false,
+            "target": {
+              "color_roughness": [
+                0.3,
+                0.28,
+                0.23,
+                1.0
+              ],
+              "response": [
+                0.0,
+                0.8,
+                1.0,
+                0.9
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          {
+            "field": "noise",
+            "frequency": [
+              64,
+              64
+            ],
+            "seed": 518,
+            "octaves": 4,
+            "warp": 0.07,
+            "threshold": [
+              0.43,
+              0.7
+            ],
+            "strength": 0.15,
+            "invert": false,
+            "target": {
+              "color_roughness": [
+                0.45,
+                0.42,
+                0.34,
+                0.98
+              ],
+              "response": [
+                0.0,
+                0.68,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        ],
+        "height_m": 0.11,
+        "relief": "bump",
+        "view_steps": 32,
+        "shadow_steps": 12
+      },
+      "continuous_frames": true,
+      "evolution": {
+        "maturity_years": 25.0,
+        "young_color": [
+          1.25,
+          1.15,
+          1.05
+        ],
+        "mature_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "young_height": 0.15,
+        "mature_height": 1.0,
+        "young_roughness": 0.65,
+        "mature_roughness": 0.95,
+        "wetness": 0.0,
+        "growth_response": 0.1
+      },
+      "blend_m": 0.1,
+      "initial_radius_m": 0.005,
+      "resolution": 1024,
+      "diagnostic": false,
+      "renewals": []
+    },
+    "scale": 2.0,
+    "crown_width": 0.5,
+    "radius": 0.5,
+    "leaf_length": 1.0,
+    "leaf_width": 0.5,
+    "leaf_density": 1.0,
+    "axis_samples": 24,
+    "blade_samples": 4,
+    "blade_columns": 2,
+    "sides": 12,
+    "bark_color": [
+      0.37,
+      0.37,
+      0.37
+    ],
+    "leaf_color": [
+      0.86,
+      0.88,
+      0.83
+    ],
+    "position": [
+      0,
+      0,
+      0
+    ]
+  },
+  "stature": {
+    "min": 0.85,
+    "max": 1.15
+  },
+  "diameter": {
+    "min": 0.8,
+    "max": 1.2
+  }
+}
