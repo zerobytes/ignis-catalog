@@ -5,7 +5,7 @@
   "engine_repository": "https://github.com/zerobytes/ignis",
   "engine_source_snapshot": "e704c1b",
   "authoring_tool": "scripts/author_catalog_ancestral.py",
-  "authoring_tool_sha256": "7a97e7c38e337bbf4ae1358e1f48f81fe9aa7c598ae9f1c4b7e56d67f4c6882b",
+  "authoring_tool_sha256": "21eb4adda7697b85c7836c0e41e6d529ff7c4fb31c876a973f6b7ce646e933c5",
   "placement": {
     "position": [
       0,
@@ -430,7 +430,8 @@
         0.88,
         0.83
       ],
-      "leaf_pattern": null
+      "leaf_pattern": null,
+      "generation": "original-organ-graph"
     },
     {
       "id": "ignis.mesh.tree.ancestral-white-41",
@@ -444,7 +445,11 @@
         0.88,
         0.83
       ],
-      "leaf_pattern": null
+      "leaf_pattern": null,
+      "generation": "current-species-seed",
+      "species_profile": "recipes/ancestral/ancestral.ignis-species",
+      "species_profile_sha256": "aebc5d9940aedc3d75deb9cf28327a9158ce2fb793e9af1a0d27ceb28348badc",
+      "age_years": 180
     },
     {
       "id": "ignis.mesh.tree.ancestral-white-42",
@@ -458,7 +463,11 @@
         0.88,
         0.83
       ],
-      "leaf_pattern": null
+      "leaf_pattern": null,
+      "generation": "current-species-seed",
+      "species_profile": "recipes/ancestral/ancestral.ignis-species",
+      "species_profile_sha256": "aebc5d9940aedc3d75deb9cf28327a9158ce2fb793e9af1a0d27ceb28348badc",
+      "age_years": 180
     },
     {
       "id": "ignis.mesh.tree.ancestral-blue-lilac",
@@ -494,7 +503,8 @@
         "seed": 43,
         "contrast": 1.2,
         "kind": "noise"
-      }
+      },
+      "generation": "original-organ-graph"
     },
     {
       "id": "ignis.mesh.tree.ancestral-wine",
@@ -530,7 +540,8 @@
         "seed": 44,
         "contrast": 1.2,
         "kind": "noise"
-      }
+      },
+      "generation": "original-organ-graph"
     },
     {
       "id": "ignis.mesh.tree.ancestral-pink",
@@ -566,7 +577,8 @@
         "seed": 45,
         "contrast": 1.2,
         "kind": "noise"
-      }
+      },
+      "generation": "original-organ-graph"
     }
   ]
 }
